@@ -31,8 +31,14 @@ Future<List<Map<String, dynamic>>> fetchDataFromAPI() async {
   final response =
       await http.get(Uri.parse('http://192.168.50.199:3000/stations'));
   if (response.statusCode == 200) {
-    final List<dynamic> jsonData = json.decode(response.body);
-    return jsonData.cast<Map<String, dynamic>>();
+    final data = json.decode(response.body) as List;
+    final stations = data.map((stationData) {
+      return {
+        'name': stationData['name'],
+        'imageUrl': stationData['imageUrl'],
+      };
+    }).toList();
+    return stations;
   } else {
     throw Exception('Failed to load data from the API');
   }

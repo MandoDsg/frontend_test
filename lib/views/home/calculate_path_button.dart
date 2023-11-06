@@ -46,15 +46,29 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
           TypeAheadField<String>(
             textFieldConfiguration: TextFieldConfiguration(
               controller: startStationController,
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 hintText: 'Start Station',
-                prefixIcon: Icon(Icons.search, color: Colors.redAccent),
-                enabledBorder: OutlineInputBorder(
+                prefixIcon:
+                    const Icon(Icons.my_location, color: Colors.redAccent),
+                suffixIcon: startStationController.text.isNotEmpty
+                    ? GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            startStationController.clear();
+                          });
+                        },
+                        child: const Icon(Icons.clear, color: Colors.grey),
+                      )
+                    : null,
+                enabledBorder: const OutlineInputBorder(
                   borderSide: BorderSide(color: Colors.redAccent),
                 ),
+                focusedBorder: OutlineInputBorder(
+                    borderSide:
+                        BorderSide(color: Colors.redAccent.shade700, width: 2)),
                 fillColor: Colors.white,
                 filled: true,
-                hintStyle: TextStyle(color: Colors.grey),
+                hintStyle: const TextStyle(color: Colors.grey),
               ),
               onChanged: (query) {
                 setState(() {
@@ -98,15 +112,29 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
           TypeAheadField<String>(
             textFieldConfiguration: TextFieldConfiguration(
               controller: endStationController,
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 hintText: 'End Station',
-                prefixIcon: Icon(Icons.search, color: Colors.redAccent),
-                enabledBorder: OutlineInputBorder(
+                prefixIcon: const Icon(Icons.not_listed_location_outlined,
+                    color: Colors.redAccent),
+                suffixIcon: endStationController.text.isNotEmpty
+                    ? GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            endStationController.clear();
+                          });
+                        },
+                        child: const Icon(Icons.clear, color: Colors.grey),
+                      )
+                    : null,
+                enabledBorder: const OutlineInputBorder(
                   borderSide: BorderSide(color: Colors.redAccent),
                 ),
+                focusedBorder: OutlineInputBorder(
+                    borderSide:
+                        BorderSide(color: Colors.redAccent.shade700, width: 2)),
                 fillColor: Colors.white,
                 filled: true,
-                hintStyle: TextStyle(color: Colors.grey),
+                hintStyle: const TextStyle(color: Colors.grey),
               ),
               onChanged: (query) {
                 setState(() {
@@ -166,9 +194,14 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
               style: TextStyle(color: Colors.white),
             ),
           ),
-          shortestPath.isNotEmpty
-              ? Text('Shortest Path: \n${shortestPath.join("\n")}')
-              : const SizedBox.shrink(),
+          SizedBox(
+            height: 350, // Establece la altura máxima que desees
+            child: SingleChildScrollView(
+              child: shortestPath.isNotEmpty
+                  ? Text('Shortest Path: \n${shortestPath.join("\n")}')
+                  : const SizedBox.shrink(),
+            ),
+          )
         ],
       ),
     );
@@ -181,6 +214,11 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
       return stations?.where((station) {
         final stationName = station['name'].toString();
         return stationName.toLowerCase().contains(query.toLowerCase());
+      }).map((station) {
+        return {
+          'name': station['name'],
+          'imageUrl': station['imageUrl'],
+        };
       }).toList();
     }
   }
