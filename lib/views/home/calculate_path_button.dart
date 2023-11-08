@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/views/home/fetch_data.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
+import 'package:diacritic/diacritic.dart';
 
 class CalculatePathButton extends StatefulWidget {
   final Future<void> Function(String, String) calculateFuntion;
@@ -93,14 +94,37 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
               }
             },
             itemBuilder: (context, suggestion) {
-              return ListTile(
-                title: Text(suggestion),
+              final station = stations?.firstWhere(
+                (station) => station['name'] == suggestion,
+                orElse: () => {},
+              );
+              final imageUrl = station?['imageUrl'];
+              const iconSize = 60.0;
+
+              final translatedName = traducirNombre(suggestion);
+
+              return SizedBox(
+                height: 60,
+                child: ListTile(
+                  title: Text(translatedName),
+                  leading: imageUrl != null
+                      ? Image.asset(
+                          imageUrl,
+                          fit: BoxFit.cover,
+                          width: iconSize,
+                          height: iconSize,
+                        )
+                      : const Icon(
+                          Icons.image,
+                          size: iconSize,
+                        ),
+                ),
               );
             },
             onSuggestionSelected: (suggestion) {
               setState(() {
                 startStationController.text = suggestion;
-                showStartResults = false;
+                showStartResults = true;
                 searchQuery = suggestion;
               });
             },
@@ -159,14 +183,37 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
               }
             },
             itemBuilder: (context, suggestion) {
-              return ListTile(
-                title: Text(suggestion),
+              final station = stations?.firstWhere(
+                (station) => station['name'] == suggestion,
+                orElse: () => {},
+              );
+              final imageUrl = station?['imageUrl'];
+              const iconSize = 60.0;
+
+              final translatedName = traducirNombre(suggestion);
+
+              return SizedBox(
+                height: 60,
+                child: ListTile(
+                  title: Text(translatedName),
+                  leading: imageUrl != null
+                      ? Image.asset(
+                          imageUrl,
+                          fit: BoxFit.cover,
+                          width: iconSize,
+                          height: iconSize,
+                        )
+                      : const Icon(
+                          Icons.image,
+                          size: iconSize,
+                        ),
+                ),
               );
             },
             onSuggestionSelected: (suggestion) {
               setState(() {
                 endStationController.text = suggestion;
-                showStartResults = false;
+                showEndResults = false;
                 searchQuery = suggestion;
               });
             },
@@ -212,8 +259,10 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
       return stations;
     } else {
       return stations?.where((station) {
-        final stationName = station['name'].toString();
-        return stationName.toLowerCase().contains(query.toLowerCase());
+        final stationName = removeDiacritics(station['name'].toString())
+            .toLowerCase(); // Remover acentos y convertir a minúsculas
+        final queryWithoutDiacritics = removeDiacritics(query).toLowerCase();
+        return stationName.contains(queryWithoutDiacritics);
       }).map((station) {
         return {
           'name': station['name'],
@@ -221,6 +270,46 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
         };
       }).toList();
     }
+  }
+
+  String traducirNombre(String nombre) {
+    final sustituciones = {
+      '_l1': '\nMetro - Linea 1',
+      '_l2': '\nMetro - Linea 2',
+      '_l3': '\nMetro - Linea 3',
+      '_l4': '\nMetro - Linea 4',
+      '_l5': '\nMetro - Linea 5',
+      '_l6': '\nMetro - Linea 6',
+      '_l7': '\nMetro - Linea 7',
+      '_l8': '\nMetro - Linea 8',
+      '_l9': '\nMetro - Linea 9',
+      '_la': '\nMetro - Linea A',
+      '_lb': '\nMetro - Linea B',
+      '_l12': '\nMetro - Linea 12',
+      '_l1mb': '\nMetroBus - Linea 1',
+      '_l2mb': '\nMetroBus - Linea 2',
+      '_l3mb': '\nMetroBus - Linea 3',
+      '_l4mb': '\nMetroBus - Linea 4',
+      '_l5mb': '\nMetroBus - Linea 5',
+      '_l6mb': '\nMetroBus - Linea 6',
+      '_l7mb': '\nMetroBus - Linea 7',
+      '_l1cb': '\nCableBus - Linea 1',
+      '_l2cb': '\nCableBus - Linea 2',
+      '_l1tl': '\nTren Ligero',
+    };
+
+    final keysToReplace =
+        sustituciones.keys.where((clave) => nombre.endsWith(clave)).toList();
+
+    for (final clave in keysToReplace) {
+      nombre = nombre.replaceAll(clave, sustituciones[clave]!);
+    }
+
+    List<String> partes = nombre.split('_');
+    partes = partes
+        .map((parte) => parte[0].toUpperCase() + parte.substring(1))
+        .toList();
+    return partes.join(' ');
   }
 
   @override

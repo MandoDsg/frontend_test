@@ -39,6 +39,7 @@ dependencies:
   go_router: ^10.1.2
   sliding_clipped_nav_bar: ^3.1.0+4
   flutter_typeahead: ^4.8.0
+  diacritic: ^0.1.4
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +67,13 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/Metro/Linea_1/
+    - assets/Metro/Linea_2/
+    - assets/Metro/Linea_3/
+    - assets/Metro/Linea_4/
+    - assets/Metro/Linea_5/
+    - assets/Metro/Linea_6/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
