@@ -74,6 +74,22 @@ flutter:
     - assets/Metro/Linea_4/
     - assets/Metro/Linea_5/
     - assets/Metro/Linea_6/
+    - assets/Metro/Linea_7/
+    - assets/Metro/Linea_8/
+    - assets/Metro/Linea_9/
+    - assets/Metro/Linea_A/
+    - assets/Metro/Linea_B/
+    - assets/Metro/Linea_12/
+    - assets/Metrobus/Linea_1/
+    - assets/Metrobus/Linea_2/
+    - assets/Metrobus/Linea_3/
+    - assets/Metrobus/Linea_4/
+    - assets/Metrobus/Linea_5/
+    - assets/Metrobus/Linea_6/
+    - assets/Metrobus/Linea_7/
+    - assets/Cablebus/Linea_1/
+    - assets/Cablebus/Linea_2/
+    - assets/Tren_Ligero/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
