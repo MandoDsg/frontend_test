@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:frontend/views/home/fetch_data.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:diacritic/diacritic.dart';
+import 'package:frontend/views/home/shortest_path_widget.dart';
 
 class CalculatePathButton extends StatefulWidget {
   final Future<void> Function(String, String) calculateFuntion;
@@ -40,7 +41,7 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Expanded(
       child: Column(
         children: [
           //Start Station
@@ -221,32 +222,32 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
             hideOnLoading: true,
           ),
           const SizedBox(height: 10),
-          MaterialButton(
-            color: Colors.redAccent,
-            onPressed: () async {
-              try {
-                final path = await calculateShortestPath(
-                  startStationController.text,
-                  endStationController.text,
-                );
-                setState(() {
-                  shortestPath = path;
-                });
-              } catch (e) {
-                print('Error $e');
-              }
-            },
-            child: const Text(
-              'Calculate Shortest Path',
-              style: TextStyle(color: Colors.white),
+          SizedBox(
+            child: MaterialButton(
+              color: Colors.redAccent,
+              onPressed: () async {
+                try {
+                  final path = await calculateShortestPath(
+                    startStationController.text,
+                    endStationController.text,
+                  );
+                  setState(() {
+                    shortestPath = path;
+                  });
+                } catch (e) {
+                  print('Error $e');
+                }
+              },
+              child: const Text(
+                'Calculate Shortest Path',
+                style: TextStyle(color: Colors.white),
+              ),
             ),
           ),
-          SizedBox(
-            height: 350, // Establece la altura máxima que desees
+
+          Expanded(
             child: SingleChildScrollView(
-              child: shortestPath.isNotEmpty
-                  ? Text('Shortest Path: \n${shortestPath.join("\n")}')
-                  : const SizedBox.shrink(),
+              child: ShortestPathWidget(shortestPath: shortestPath),
             ),
           )
         ],
