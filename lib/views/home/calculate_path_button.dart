@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/views/home/fetch_data.dart';
+import 'package:frontend/services/fetch_data.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:diacritic/diacritic.dart';
-import 'package:frontend/views/home/shortest_path_widget.dart';
+import 'package:frontend/views/translation_utils.dart';
 
 class CalculatePathButton extends StatefulWidget {
   final Future<void> Function(String, String) calculateFuntion;
@@ -105,13 +105,13 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
               final translatedName = traducirNombre(suggestion);
 
               return SizedBox(
-                height: 60,
+                height: 65,
                 child: ListTile(
                   title: Text(translatedName),
                   leading: imageUrl != null
                       ? Image.asset(
                           imageUrl,
-                          fit: BoxFit.cover,
+                          //fit: BoxFit.cover,
                           width: iconSize,
                           height: iconSize,
                         )
@@ -194,13 +194,13 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
               final translatedName = traducirNombre(suggestion);
 
               return SizedBox(
-                height: 60,
+                height: 65,
                 child: ListTile(
                   title: Text(translatedName),
                   leading: imageUrl != null
                       ? Image.asset(
                           imageUrl,
-                          fit: BoxFit.cover,
+                          //fit: BoxFit.cover,
                           width: iconSize,
                           height: iconSize,
                         )
@@ -247,9 +247,85 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
 
           Expanded(
             child: SingleChildScrollView(
-              child: ShortestPathWidget(shortestPath: shortestPath),
+              child: shortestPath.isNotEmpty
+                  ? Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: shortestPath.asMap().entries.map((entry) {
+                        final stationName = entry.value;
+                        final station = stations?.firstWhere(
+                          (station) => station['name'] == stationName,
+                          orElse: () => {},
+                        );
+                        final imageUrl = station?['imageUrl'];
+                        final translatedName = traducirNombre(stationName);
+
+                        bool isFirstTransfer = entry.key ==
+                            0; // Verificar si es la primera transferencia
+                        final isTransfer = entry.key != -0 &&
+                            stationName.split('_')[0] !=
+                                shortestPath[entry.key - 1].split('_')[0];
+
+                        return Padding(
+                          padding: const EdgeInsets.only(bottom: 10.0),
+                          child: Column(
+                            children: [
+                              if (isFirstTransfer)
+                                Column(children: [
+                                  const Text(
+                                    'Aborde en:',
+                                  ),
+                                  Row(
+                                    children: [
+                                      if (imageUrl != null)
+                                        Image.asset(
+                                          imageUrl,
+                                          width: 60,
+                                          height: 60,
+                                        ),
+                                      const SizedBox(width: 10),
+                                      Text(translatedName),
+                                    ],
+                                  )
+                                ])
+                              else
+                                !isTransfer
+                                    ? Column(
+                                        children: [
+                                          const Text('Transborde a:'),
+                                          Row(
+                                            children: [
+                                              if (imageUrl != null)
+                                                Image.asset(
+                                                  imageUrl,
+                                                  width: 60,
+                                                  height: 60,
+                                                ),
+                                              const SizedBox(width: 10),
+                                              Text(translatedName),
+                                            ],
+                                          ),
+                                        ],
+                                      )
+                                    : Row(
+                                        children: [
+                                          if (imageUrl != null)
+                                            Image.asset(
+                                              imageUrl,
+                                              width: 60,
+                                              height: 60,
+                                            ),
+                                          const SizedBox(width: 10),
+                                          Text(translatedName),
+                                        ],
+                                      ),
+                            ],
+                          ),
+                        );
+                      }).toList(),
+                    )
+                  : const SizedBox.shrink(),
             ),
-          )
+          ),
         ],
       ),
     );
@@ -271,46 +347,6 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
         };
       }).toList();
     }
-  }
-
-  String traducirNombre(String nombre) {
-    final sustituciones = {
-      '_L1': '\nMetro - Línea 1',
-      '_L2': '\nMetro - Línea 2',
-      '_L3': '\nMetro - Línea 3',
-      '_L4': '\nMetro - Línea 4',
-      '_L5': '\nMetro - Línea 5',
-      '_L6': '\nMetro - Línea 6',
-      '_L7': '\nMetro - Línea 7',
-      '_L8': '\nMetro - Línea 8',
-      '_L9': '\nMetro - Línea 9',
-      '_LA': '\nMetro - Línea A',
-      '_LB': '\nMetro - Línea B',
-      '_L12': '\nMetro - Línea 12',
-      '_MBL1': '\nMetroBús - Línea 1',
-      '_MBL2': '\nMetroBús - Línea 2',
-      '_MBL3': '\nMetroBús - Línea 3',
-      '_MBL4': '\nMetroBús - Línea 4',
-      '_MBL5': '\nMetroBús - Línea 5',
-      '_MBL6': '\nMetroBús - Línea 6',
-      '_MBL7': '\nMetroBús - Línea 7',
-      '_CBL1': '\nCableBús - Línea 1',
-      '_CBL2': '\nCableBús - Línea 2',
-      '_TL': '\nTren Ligero',
-    };
-
-    final keysToReplace =
-        sustituciones.keys.where((clave) => nombre.endsWith(clave)).toList();
-
-    for (final clave in keysToReplace) {
-      nombre = nombre.replaceAll(clave, sustituciones[clave]!);
-    }
-
-    List<String> partes = nombre.split('_');
-    partes = partes
-        .map((parte) => parte[0].toUpperCase() + parte.substring(1))
-        .toList();
-    return partes.join(' ');
   }
 
   @override

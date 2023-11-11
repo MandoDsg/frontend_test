@@ -40,6 +40,9 @@ dependencies:
   sliding_clipped_nav_bar: ^3.1.0+4
   flutter_typeahead: ^4.8.0
   diacritic: ^0.1.4
+  html: ^0.15.4
+  #twitter_api_v2: '>=3.0.1 <4.7.0'
+  #http: ^0.13.6
 
 dev_dependencies:
   flutter_test:
@@ -90,6 +93,7 @@ flutter:
     - assets/Cablebus/Linea_1/
     - assets/Cablebus/Linea_2/
     - assets/Tren_Ligero/
+    - assets/dashboard/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

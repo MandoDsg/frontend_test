@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/widgets/dashboard_item.dart';
 import 'package:go_router/go_router.dart';
+//import 'package:go_router/go_router.dart';
 
 class MIView extends StatefulWidget {
   const MIView({super.key});
@@ -16,36 +18,39 @@ class _MIViewState extends State<MIView> {
         backgroundColor: Colors.indigoAccent,
         title: const Text("Movilidad Integrada CDMX"),
       ),
-      body: SizedBox(
-        width: double.infinity,
-        height: double.infinity,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+      body: Center(
+        child: GridView(
+          padding: const EdgeInsets.all(20),
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2, crossAxisSpacing: 20, mainAxisSpacing: 20),
           children: [
-            const Icon(
-              Icons.subway,
-              color: Colors.indigoAccent,
-              size: 100,
-            ),
-            const SizedBox(
-              height: 8,
-            ),
-            const Text(
-              "MI - CDMX",
-              style: TextStyle(fontSize: 30),
-            ),
-            const SizedBox(
-              height: 12,
-            ),
-            MaterialButton(
-              color: Colors.indigoAccent,
-              onPressed: () {
-                context.goNamed("subMI");
+            DashboardItem(
+              imagePath: 'assets/dashboard/logometro.png',
+              title: 'Metro',
+              onTap: () {
+                context.goNamed("subMetro");
               },
-              child: const Text(
-                "Navigate To Sub MI View",
-                style: TextStyle(color: Colors.white),
-              ),
+            ),
+            DashboardItem(
+              imagePath: 'assets/dashboard/logometrobus.png',
+              title: 'Metrobús',
+              onTap: () {
+                context.goNamed("subMetrobus");
+              },
+            ),
+            DashboardItem(
+              imagePath: 'assets/dashboard/logotrenligero.png',
+              title: 'Tren Ligero',
+              onTap: () {
+                context.goNamed("subTrenLigero");
+              },
+            ),
+            DashboardItem(
+              imagePath: 'assets/dashboard/logocablebus.png',
+              title: 'Cablebús',
+              onTap: () {
+                context.goNamed("subCablebus");
+              },
             ),
           ],
         ),

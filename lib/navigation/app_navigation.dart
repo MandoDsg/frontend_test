@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:frontend/views/home/home_view.dart';
 import 'package:frontend/views/home/sub_home_view.dart';
 import 'package:frontend/views/info/info_view.dart';
+import 'package:frontend/views/movilidad_integrada/cablebus_view.dart';
+import 'package:frontend/views/movilidad_integrada/metro_view.dart';
+import 'package:frontend/views/movilidad_integrada/metrobus_view.dart';
 import 'package:frontend/views/movilidad_integrada/mi_view.dart';
 import 'package:frontend/views/movilidad_integrada/sub_mi_view.dart';
+import 'package:frontend/views/movilidad_integrada/trenligero_view.dart';
 import 'package:frontend/views/settings/settings_view.dart';
 import 'package:frontend/views/settings/sub_setting_view.dart';
 import 'package:frontend/views/wrapper/main_wrapper.dart';
@@ -80,6 +84,74 @@ class AppNavigation {
                       return CustomTransitionPage<void>(
                         key: state.pageKey,
                         child: const SubMIView(),
+                        transitionsBuilder: (
+                          context,
+                          animation,
+                          secondaryAnimation,
+                          child,
+                        ) =>
+                            FadeTransition(opacity: animation, child: child),
+                      );
+                    },
+                  ),
+                  GoRoute(
+                    path: "subMetro",
+                    name: "subMetro",
+                    pageBuilder: (context, state) {
+                      return CustomTransitionPage<void>(
+                        key: state.pageKey,
+                        child: const SubMetro(),
+                        transitionsBuilder: (
+                          context,
+                          animation,
+                          secondaryAnimation,
+                          child,
+                        ) =>
+                            FadeTransition(opacity: animation, child: child),
+                      );
+                    },
+                  ),
+                  GoRoute(
+                    path: "subMetrobus",
+                    name: "subMetrobus",
+                    pageBuilder: (context, state) {
+                      return CustomTransitionPage<void>(
+                        key: state.pageKey,
+                        child: const SubMetrobus(),
+                        transitionsBuilder: (
+                          context,
+                          animation,
+                          secondaryAnimation,
+                          child,
+                        ) =>
+                            FadeTransition(opacity: animation, child: child),
+                      );
+                    },
+                  ),
+                  GoRoute(
+                    path: "subTrenLigero",
+                    name: "subTrenLigero",
+                    pageBuilder: (context, state) {
+                      return CustomTransitionPage<void>(
+                        key: state.pageKey,
+                        child: const SubTrenLigero(),
+                        transitionsBuilder: (
+                          context,
+                          animation,
+                          secondaryAnimation,
+                          child,
+                        ) =>
+                            FadeTransition(opacity: animation, child: child),
+                      );
+                    },
+                  ),
+                  GoRoute(
+                    path: "subCablebus",
+                    name: "subCablebus",
+                    pageBuilder: (context, state) {
+                      return CustomTransitionPage<void>(
+                        key: state.pageKey,
+                        child: const SubCablebus(),
                         transitionsBuilder: (
                           context,
                           animation,

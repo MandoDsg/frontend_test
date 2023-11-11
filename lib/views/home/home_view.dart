@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/views/home/calculate_path_button.dart';
-import 'package:frontend/views/home/fetch_data.dart';
+import 'package:frontend/services/fetch_data.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
