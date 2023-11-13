@@ -12,10 +12,11 @@ class _InfoViewState extends State<InfoView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepPurpleAccent,
+        backgroundColor: Theme.of(context).colorScheme.background,
         title: const Text("Info"),
       ),
-      body: const SizedBox(
+      backgroundColor: Theme.of(context).colorScheme.onBackground,
+      body: SizedBox(
         width: double.infinity,
         height: double.infinity,
         child: Column(
@@ -23,13 +24,13 @@ class _InfoViewState extends State<InfoView> {
           children: [
             Icon(
               Icons.info_outline,
-              color: Colors.deepPurpleAccent,
+              color: Theme.of(context).colorScheme.primary,
               size: 100,
             ),
-            SizedBox(
+            const SizedBox(
               height: 8,
             ),
-            Text(
+            const Text(
               "Info",
               style: TextStyle(fontSize: 30),
             ),

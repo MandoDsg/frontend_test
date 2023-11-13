@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:frontend/services/fetch_data.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:diacritic/diacritic.dart';
-import 'package:frontend/views/translation_utils.dart';
+import 'package:frontend/services/translation_utils.dart';
 
 class CalculatePathButton extends StatefulWidget {
   final Future<void> Function(String, String) calculateFuntion;
@@ -43,15 +43,20 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
   Widget build(BuildContext context) {
     return Expanded(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           //Start Station
+          const Text("Origen:", style: TextStyle(fontSize: 16)),
+          const SizedBox(
+            height: 5,
+          ),
           TypeAheadField<String>(
             textFieldConfiguration: TextFieldConfiguration(
               controller: startStationController,
               decoration: InputDecoration(
-                hintText: 'Start Station',
-                prefixIcon:
-                    const Icon(Icons.my_location, color: Colors.redAccent),
+                hintText: 'Estación Inicial',
+                prefixIcon: Icon(Icons.my_location,
+                    color: Theme.of(context).colorScheme.primary),
                 suffixIcon: startStationController.text.isNotEmpty
                     ? GestureDetector(
                         onTap: () {
@@ -59,18 +64,20 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
                             startStationController.clear();
                           });
                         },
-                        child: const Icon(Icons.clear, color: Colors.grey),
+                        child: Icon(Icons.clear, color: Colors.grey.shade600),
                       )
                     : null,
-                enabledBorder: const OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.redAccent),
+                enabledBorder: OutlineInputBorder(
+                  borderSide: BorderSide(
+                      color: Theme.of(context).colorScheme.primary, width: 1.5),
                 ),
                 focusedBorder: OutlineInputBorder(
-                    borderSide:
-                        BorderSide(color: Colors.redAccent.shade700, width: 2)),
-                fillColor: Colors.white,
+                    borderSide: BorderSide(
+                        color: Theme.of(context).colorScheme.primary,
+                        width: 3)),
+                fillColor: Theme.of(context).colorScheme.secondary,
                 filled: true,
-                hintStyle: const TextStyle(color: Colors.grey),
+                hintStyle: TextStyle(color: Colors.grey.shade600),
               ),
               onChanged: (query) {
                 setState(() {
@@ -132,15 +139,19 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
             hideOnEmpty: true,
             hideOnLoading: true,
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 5),
           //EndStation
+          const Text("Destino:", style: TextStyle(fontSize: 16)),
+          const SizedBox(
+            height: 5,
+          ),
           TypeAheadField<String>(
             textFieldConfiguration: TextFieldConfiguration(
               controller: endStationController,
               decoration: InputDecoration(
-                hintText: 'End Station',
-                prefixIcon: const Icon(Icons.not_listed_location_outlined,
-                    color: Colors.redAccent),
+                hintText: 'Estación Final',
+                prefixIcon: Icon(Icons.not_listed_location_outlined,
+                    color: Theme.of(context).colorScheme.primary),
                 suffixIcon: endStationController.text.isNotEmpty
                     ? GestureDetector(
                         onTap: () {
@@ -148,18 +159,20 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
                             endStationController.clear();
                           });
                         },
-                        child: const Icon(Icons.clear, color: Colors.grey),
+                        child: Icon(Icons.clear, color: Colors.grey.shade600),
                       )
                     : null,
-                enabledBorder: const OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.redAccent),
+                enabledBorder: OutlineInputBorder(
+                  borderSide: BorderSide(
+                      color: Theme.of(context).colorScheme.primary, width: 1.5),
                 ),
                 focusedBorder: OutlineInputBorder(
-                    borderSide:
-                        BorderSide(color: Colors.redAccent.shade700, width: 2)),
-                fillColor: Colors.white,
+                    borderSide: BorderSide(
+                        color: Theme.of(context).colorScheme.primary,
+                        width: 3)),
+                fillColor: Theme.of(context).colorScheme.secondary,
                 filled: true,
-                hintStyle: const TextStyle(color: Colors.grey),
+                hintStyle: TextStyle(color: Colors.grey.shade600),
               ),
               onChanged: (query) {
                 setState(() {
@@ -222,28 +235,99 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
             hideOnLoading: true,
           ),
           const SizedBox(height: 10),
-          SizedBox(
-            child: MaterialButton(
-              color: Colors.redAccent,
-              onPressed: () async {
-                try {
-                  final path = await calculateShortestPath(
-                    startStationController.text,
-                    endStationController.text,
-                  );
-                  setState(() {
-                    shortestPath = path;
-                  });
-                } catch (e) {
-                  print('Error $e');
-                }
-              },
-              child: const Text(
-                'Calculate Shortest Path',
-                style: TextStyle(color: Colors.white),
+          Row(
+            children: [
+              Expanded(
+                child: SizedBox(
+                  child: MaterialButton(
+                    color: Theme.of(context).colorScheme.primary,
+                    onPressed: () async {
+                      if (startStationController.text.isNotEmpty &&
+                          endStationController.text.isNotEmpty) {
+                        try {
+                          final path = await calculateShortestPath(
+                            startStationController.text,
+                            endStationController.text,
+                          );
+                          setState(() {
+                            shortestPath = path;
+                          });
+                        } catch (e) {
+                          print('Error $e');
+                        }
+                      } else {
+                        // Si alguno de los campos está vacío, muestra un diálogo
+                        showDialog(
+                          context: context,
+                          builder: (context) {
+                            return AlertDialog(
+                              backgroundColor:
+                                  Theme.of(context).colorScheme.background,
+                              title: Row(
+                                children: [
+                                  Icon(
+                                    Icons.error,
+                                    color: Theme.of(context)
+                                        .colorScheme
+                                        .primary, // Color del icono
+                                    size: 30.0, // Tamaño del icono
+                                  ),
+                                  const SizedBox(
+                                      width:
+                                          10), // Espacio entre el icono y el texto
+                                  Text('Error',
+                                      style: TextStyle(
+                                          color: Theme.of(context)
+                                              .colorScheme
+                                              .primary)),
+                                ],
+                              ),
+                              content: Text(
+                                  'Por favor, ingresa las dos estaciones.',
+                                  style: TextStyle(
+                                      color: Theme.of(context)
+                                          .colorScheme
+                                          .tertiary)),
+                              actions: [
+                                TextButton(
+                                  onPressed: () {
+                                    Navigator.of(context).pop();
+                                  },
+                                  child: Text('OK',
+                                      style: TextStyle(
+                                          color: Theme.of(context)
+                                              .colorScheme
+                                              .primary)),
+                                ),
+                              ],
+                            );
+                          },
+                        );
+                      }
+                    },
+                    child: const Text(
+                      'Calcular La Ruta Más Corta',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ),
               ),
-            ),
+              const SizedBox(width: 50),
+              MaterialButton(
+                color: Theme.of(context).colorScheme.secondary,
+                onPressed: () {
+                  setState(() {
+                    shortestPath = [];
+                  });
+                },
+                child: const Text(
+                  'Borrar',
+                  style: TextStyle(color: Colors.white),
+                ),
+              )
+            ],
           ),
+          const SizedBox(height: 20),
 
           Expanded(
             child: SingleChildScrollView(
@@ -259,8 +343,7 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
                         final imageUrl = station?['imageUrl'];
                         final translatedName = traducirNombre(stationName);
 
-                        bool isFirstTransfer = entry.key ==
-                            0; // Verificar si es la primera transferencia
+                        bool isFirstTransfer = entry.key == 0;
                         final isTransfer = entry.key != -0 &&
                             stationName.split('_')[0] !=
                                 shortestPath[entry.key - 1].split('_')[0];
@@ -291,7 +374,11 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
                                 !isTransfer
                                     ? Column(
                                         children: [
-                                          const Text('Transborde a:'),
+                                          /*const Text('Transborde a: '),
+                                          Text(traducirNombreTransborde(
+                                              (stationName.split('_')[1]))),*/
+                                          Text(
+                                              'Transborde a${traducirNombreTransborde(stationName.split('_')[1])}'),
                                           Row(
                                             children: [
                                               if (imageUrl != null)

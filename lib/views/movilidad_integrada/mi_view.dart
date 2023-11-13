@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:frontend/widgets/dashboard_item.dart';
 import 'package:go_router/go_router.dart';
-//import 'package:go_router/go_router.dart';
+import 'package:flutter/material.dart';
 
 class MIView extends StatefulWidget {
   const MIView({super.key});
@@ -15,9 +14,10 @@ class _MIViewState extends State<MIView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigoAccent,
+        backgroundColor: Theme.of(context).colorScheme.background,
         title: const Text("Movilidad Integrada CDMX"),
       ),
+      backgroundColor: Theme.of(context).colorScheme.onBackground,
       body: Center(
         child: GridView(
           padding: const EdgeInsets.all(20),

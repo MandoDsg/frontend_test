@@ -41,6 +41,8 @@ dependencies:
   flutter_typeahead: ^4.8.0
   diacritic: ^0.1.4
   html: ^0.15.4
+  provider:
+  shared_preferences: ^2.2.2
   #twitter_api_v2: '>=3.0.1 <4.7.0'
   #http: ^0.13.6
 

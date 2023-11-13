@@ -17,13 +17,15 @@ class DashboardItem extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        decoration: const BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.only(
+        decoration: BoxDecoration(
+            color: Theme.of(context).colorScheme.background,
+            borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(20),
               bottomRight: Radius.circular(20),
             ),
-            boxShadow: [BoxShadow(color: Colors.grey, blurRadius: 5)]),
+            boxShadow: const [
+              BoxShadow(color: Colors.blueGrey, blurRadius: 5)
+            ]),
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
@@ -36,9 +38,12 @@ class DashboardItem extends StatelessWidget {
               ),
               Text(
                 title,
-                style:
-                    const TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-              )
+                style: const TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.white,
+                ),
+              ),
             ],
           ),
         ),

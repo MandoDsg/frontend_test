@@ -35,13 +35,14 @@ class _MainWrapperState extends State<MainWrapper> {
           onPressed: () {
             context.push(context.namedLocation('Info'));
           },
-          backgroundColor: Colors.deepPurpleAccent,
-          child: const Icon(
+          backgroundColor: Theme.of(context).colorScheme.background,
+          child: Icon(
             Icons.info_outline,
             size: 50,
+            color: Theme.of(context).colorScheme.primary,
           )),
       bottomNavigationBar: SlidingClippedNavBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Theme.of(context).colorScheme.background,
         onButtonPressed: (index) {
           setState(() {
             selectedIndex = index;
@@ -49,12 +50,12 @@ class _MainWrapperState extends State<MainWrapper> {
           _goBranch(selectedIndex);
         },
         iconSize: 30,
-        activeColor: Colors.black,
+        activeColor: Colors.white,
         selectedIndex: selectedIndex,
         barItems: [
           BarItem(
-            icon: Icons.home,
-            title: 'Home',
+            icon: Icons.location_on,
+            title: 'Ruta',
           ),
           BarItem(
             icon: Icons.directions_subway_sharp,
@@ -62,7 +63,7 @@ class _MainWrapperState extends State<MainWrapper> {
           ),
           BarItem(
             icon: Icons.settings,
-            title: 'Settings',
+            title: 'Ajustes',
           ),
         ],
       ),

@@ -43,12 +43,13 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.redAccent,
-        title: const Text("Home"),
+        backgroundColor: Theme.of(context).colorScheme.background,
+        title: const Text("MI-Ruta"),
       ),
+      backgroundColor: Theme.of(context).colorScheme.onBackground,
       body: stations != null
           ? Padding(
-              padding: const EdgeInsets.all(28.0),
+              padding: const EdgeInsets.all(20.0),
               child: Column(children: [
                 CalculatePathButton(calculateFuntion: _calculatePath)
               ]),
