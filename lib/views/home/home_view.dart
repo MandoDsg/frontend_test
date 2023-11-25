@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/languages/language_constants.dart';
 import 'package:frontend/views/home/calculate_path_button.dart';
 import 'package:frontend/services/fetch_data.dart';
 
@@ -44,7 +45,7 @@ class _HomeViewState extends State<HomeView> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.background,
-        title: const Text("MI-Ruta"),
+        title: Text(translation(context).homepage),
       ),
       backgroundColor: Theme.of(context).colorScheme.onBackground,
       body: stations != null

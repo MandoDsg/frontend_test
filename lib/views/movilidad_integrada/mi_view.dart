@@ -1,3 +1,4 @@
+import 'package:frontend/languages/language_constants.dart';
 import 'package:frontend/widgets/dashboard_item.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ class _MIViewState extends State<MIView> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.background,
-        title: const Text("Movilidad Integrada CDMX"),
+        title: Text((translation(context).mi)),
       ),
       backgroundColor: Theme.of(context).colorScheme.onBackground,
       body: Center(

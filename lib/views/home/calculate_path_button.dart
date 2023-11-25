@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/languages/language_constants.dart';
 import 'package:frontend/services/fetch_data.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:diacritic/diacritic.dart';
@@ -26,6 +27,8 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
   List<String> shortestPath = [];
   Set<String> shortestPathSet = {};
 
+  late Future<List<Map<String, dynamic>>> futureStations;
+
   @override
   void initState() {
     super.initState();
@@ -46,15 +49,21 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           //Start Station
-          const Text("Origen:", style: TextStyle(fontSize: 16)),
+          Text((translation(context).origin),
+              style: const TextStyle(fontSize: 16)),
           const SizedBox(
             height: 5,
           ),
           TypeAheadField<String>(
+            suggestionsBoxDecoration: SuggestionsBoxDecoration(
+              color: Theme.of(context).colorScheme.background,
+              borderRadius: BorderRadius.circular(8.0),
+              shadowColor: Theme.of(context).colorScheme.primary,
+            ),
             textFieldConfiguration: TextFieldConfiguration(
               controller: startStationController,
               decoration: InputDecoration(
-                hintText: 'Estación Inicial',
+                hintText: (translation(context).startstation),
                 prefixIcon: Icon(Icons.my_location,
                     color: Theme.of(context).colorScheme.primary),
                 suffixIcon: startStationController.text.isNotEmpty
@@ -141,15 +150,21 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
           ),
           const SizedBox(height: 5),
           //EndStation
-          const Text("Destino:", style: TextStyle(fontSize: 16)),
+          Text((translation(context).destination),
+              style: const TextStyle(fontSize: 16)),
           const SizedBox(
             height: 5,
           ),
           TypeAheadField<String>(
+            suggestionsBoxDecoration: SuggestionsBoxDecoration(
+              color: Theme.of(context).colorScheme.background,
+              borderRadius: BorderRadius.circular(8.0),
+              shadowColor: Theme.of(context).colorScheme.primary,
+            ),
             textFieldConfiguration: TextFieldConfiguration(
               controller: endStationController,
               decoration: InputDecoration(
-                hintText: 'Estación Final',
+                hintText: (translation(context).endstation),
                 prefixIcon: Icon(Icons.not_listed_location_outlined,
                     color: Theme.of(context).colorScheme.primary),
                 suffixIcon: endStationController.text.isNotEmpty
@@ -282,12 +297,8 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
                                               .primary)),
                                 ],
                               ),
-                              content: Text(
-                                  'Por favor, ingresa las dos estaciones.',
-                                  style: TextStyle(
-                                      color: Theme.of(context)
-                                          .colorScheme
-                                          .tertiary)),
+                              content: Text((translation(context).errorbox),
+                                  style: const TextStyle(color: Colors.white)),
                               actions: [
                                 TextButton(
                                   onPressed: () {
@@ -305,9 +316,9 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
                         );
                       }
                     },
-                    child: const Text(
-                      'Calcular La Ruta Más Corta',
-                      style: TextStyle(color: Colors.white),
+                    child: Text(
+                      (translation(context).shorthestpathButton),
+                      style: const TextStyle(color: Colors.white),
                     ),
                   ),
                 ),
@@ -320,15 +331,15 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
                     shortestPath = [];
                   });
                 },
-                child: const Text(
-                  'Borrar',
-                  style: TextStyle(color: Colors.white),
+                child: Text(
+                  (translation(context).clear),
+                  style: const TextStyle(color: Colors.white),
                 ),
               )
             ],
           ),
           const SizedBox(height: 20),
-
+          //! Path List
           Expanded(
             child: SingleChildScrollView(
               child: shortestPath.isNotEmpty
@@ -348,64 +359,109 @@ class _CalculatePathButtonState extends State<CalculatePathButton> {
                             stationName.split('_')[0] !=
                                 shortestPath[entry.key - 1].split('_')[0];
 
-                        return Padding(
-                          padding: const EdgeInsets.only(bottom: 10.0),
-                          child: Column(
-                            children: [
-                              if (isFirstTransfer)
-                                Column(children: [
-                                  const Text(
-                                    'Aborde en:',
-                                  ),
-                                  Row(
-                                    children: [
-                                      if (imageUrl != null)
-                                        Image.asset(
-                                          imageUrl,
-                                          width: 60,
-                                          height: 60,
+                        return Card(
+                          elevation: 5,
+                          color: Theme.of(context).colorScheme.secondary,
+                          child: Padding(
+                            padding: const EdgeInsets.all(10),
+                            child: Column(
+                              children: [
+                                if (isFirstTransfer)
+                                  Column(children: [
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                          Icons.directions_walk,
+                                          size: 30, // Tamaño del ícono
+                                          color: Theme.of(context)
+                                              .colorScheme
+                                              .primary, // Color del ícono
                                         ),
-                                      const SizedBox(width: 10),
-                                      Text(translatedName),
-                                    ],
-                                  )
-                                ])
-                              else
-                                !isTransfer
-                                    ? Column(
-                                        children: [
-                                          /*const Text('Transborde a: '),
-                                          Text(traducirNombreTransborde(
-                                              (stationName.split('_')[1]))),*/
-                                          Text(
-                                              'Transborde a${traducirNombreTransborde(stationName.split('_')[1])}'),
-                                          Row(
-                                            children: [
-                                              if (imageUrl != null)
-                                                Image.asset(
-                                                  imageUrl,
-                                                  width: 60,
-                                                  height: 60,
-                                                ),
-                                              const SizedBox(width: 10),
-                                              Text(translatedName),
-                                            ],
+                                        Text(
+                                          (translation(context).boardat),
+                                          style: TextStyle(
+                                            color: Theme.of(context)
+                                                .colorScheme
+                                                .primary,
+                                            fontSize: 20,
+                                            fontWeight: FontWeight.bold,
                                           ),
-                                        ],
-                                      )
-                                    : Row(
-                                        children: [
-                                          if (imageUrl != null)
-                                            Image.asset(
-                                              imageUrl,
-                                              width: 60,
-                                              height: 60,
+                                        ),
+                                      ],
+                                    ),
+                                    Row(
+                                      children: [
+                                        if (imageUrl != null)
+                                          Image.asset(
+                                            imageUrl,
+                                            width: 60,
+                                            height: 60,
+                                          ),
+                                        const SizedBox(width: 10),
+                                        Text(translatedName),
+                                      ],
+                                    )
+                                  ])
+                                else
+                                  !isTransfer
+                                      ? Column(
+                                          children: [
+                                            Row(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              children: [
+                                                Icon(
+                                                  Icons
+                                                      .transfer_within_a_station,
+                                                  size: 35,
+                                                  color: Theme.of(context)
+                                                      .colorScheme
+                                                      .primary,
+                                                ),
+                                                const SizedBox(width: 5),
+                                                Text(
+                                                  '${translation(context).transfer}\n${traducirNombreTransborde(stationName.split('_')[1])}',
+                                                  style: TextStyle(
+                                                    color: Theme.of(context)
+                                                        .colorScheme
+                                                        .primary,
+                                                    fontSize: 20,
+                                                    fontWeight: FontWeight.bold,
+                                                  ),
+                                                  textAlign: TextAlign.center,
+                                                ),
+                                              ],
                                             ),
-                                          const SizedBox(width: 10),
-                                          Text(translatedName),
-                                        ],
-                                      ),
-                            ],
+                                            Row(
+                                              children: [
+                                                if (imageUrl != null)
+                                                  Image.asset(
+                                                    imageUrl,
+                                                    width: 60,
+                                                    height: 60,
+                                                  ),
+                                                const SizedBox(width: 10),
+                                                Text(translatedName),
+                                              ],
+                                            ),
+                                          ],
+                                        )
+                                      : Row(
+                                          children: [
+                                            if (imageUrl != null)
+                                              Image.asset(
+                                                imageUrl,
+                                                width: 60,
+                                                height: 60,
+                                              ),
+                                            const SizedBox(width: 10),
+                                            Text(translatedName),
+                                          ],
+                                        ),
+                              ],
+                            ),
                           ),
                         );
                       }).toList(),

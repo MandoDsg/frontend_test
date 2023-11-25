@@ -4,7 +4,9 @@ import 'dart:convert';
 Future<List<String>> calculateShortestPath(
     String startStation, String endStation) async {
   final response = await http.post(
-      Uri.parse('http://192.168.50.199:3000/calculate-path'),
+      //Uri.parse('http://192.168.50.199:3000/calculate-path'),
+      Uri.parse(
+          'https://beloved-divine-pipefish.ngrok-free.app/calculate-path'),
       headers: <String, String>{'Content-Type': 'application/json'},
       body:
           jsonEncode({'startStation': startStation, 'endStation': endStation}));
@@ -19,7 +21,9 @@ Future<List<String>> calculateShortestPath(
 
 Future<List<Map<String, dynamic>>> fetchAllStations() async {
   final response =
-      await http.get(Uri.parse('http://192.168.50.199:3000/stations'));
+      //await http.get(Uri.parse('http://192.168.50.199:3000/stations'));
+      await http.get(
+          Uri.parse('https://beloved-divine-pipefish.ngrok-free.app/stations'));
   if (response.statusCode == 200) {
     return List<Map<String, dynamic>>.from(json.decode(response.body));
   } else {
@@ -29,7 +33,9 @@ Future<List<Map<String, dynamic>>> fetchAllStations() async {
 
 Future<List<Map<String, dynamic>>> fetchDataFromAPI() async {
   final response =
-      await http.get(Uri.parse('http://192.168.50.199:3000/stations'));
+      //await http.get(Uri.parse('http://192.168.50.199:3000/stations'));
+      await http.get(
+          Uri.parse('https://beloved-divine-pipefish.ngrok-free.app/stations'));
   if (response.statusCode == 200) {
     final data = json.decode(response.body) as List;
     final stations = data.map((stationData) {

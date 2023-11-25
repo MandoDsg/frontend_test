@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/languages/language_constants.dart';
 import 'package:go_router/go_router.dart';
 import 'package:sliding_clipped_nav_bar/sliding_clipped_nav_bar.dart';
 
@@ -55,7 +56,7 @@ class _MainWrapperState extends State<MainWrapper> {
         barItems: [
           BarItem(
             icon: Icons.location_on,
-            title: 'Ruta',
+            title: (translation(context).navhomepage),
           ),
           BarItem(
             icon: Icons.directions_subway_sharp,
@@ -63,7 +64,7 @@ class _MainWrapperState extends State<MainWrapper> {
           ),
           BarItem(
             icon: Icons.settings,
-            title: 'Ajustes',
+            title: (translation(context).settings),
           ),
         ],
       ),

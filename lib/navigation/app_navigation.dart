@@ -30,7 +30,6 @@ import 'package:frontend/views/movilidad_integrada/trenligero/trenligero_view.da
 import 'package:frontend/views/movilidad_integrada/cablebus/cablebus_view.dart';
 import 'package:frontend/views/movilidad_integrada/cablebus/cb_linea_1.dart';
 import 'package:frontend/views/settings/settings_view.dart';
-import 'package:frontend/views/settings/sub_setting_view.dart';
 
 class AppNavigation {
   AppNavigation._();
@@ -566,25 +565,6 @@ class AppNavigation {
                 name: "Settings",
                 builder: (BuildContext context, GoRouterState state) =>
                     const SettingsView(),
-                routes: [
-                  GoRoute(
-                    path: "subSetting",
-                    name: "subSetting",
-                    pageBuilder: (context, state) {
-                      return CustomTransitionPage<void>(
-                        key: state.pageKey,
-                        child: const SubSettingsView(),
-                        transitionsBuilder: (
-                          context,
-                          animation,
-                          secondaryAnimation,
-                          child,
-                        ) =>
-                            FadeTransition(opacity: animation, child: child),
-                      );
-                    },
-                  ),
-                ],
               ),
             ],
           ),
