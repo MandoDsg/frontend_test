@@ -1,0 +1,118 @@
+[
+	{
+		"name": "El Rosario",
+		"imageUrl": "assets/Metro/Linea_7/elrosario.png",
+		"transfers": [
+			"Metro - Línea 6",
+			"Metrobús - Línea 6",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Aquiles Serdán",
+		"imageUrl": "assets/Metro/Linea_7/aquilesserdan.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Camarones",
+		"imageUrl": "assets/Metro/Linea_7/camarones.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Refinería",
+		"imageUrl": "assets/Metro/Linea_7/refineria.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Tacuba",
+		"imageUrl": "assets/Metro/Linea_7/tacuba.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"RTP"
+		]
+	},
+	{
+		"name": "San Joaquín",
+		"imageUrl": "assets/Metro/Linea_7/sanjoaquin.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Polanco",
+		"imageUrl": "assets/Metro/Linea_7/polanco.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Auditorio",
+		"imageUrl": "assets/Metro/Linea_7/auditorio.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Constituyentes",
+		"imageUrl": "assets/Metro/Linea_7/constituyentes.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Tacubaya",
+		"imageUrl": "assets/Metro/Linea_7/tacubaya.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metro - Línea 9",
+			"Metrobús - Línea 2",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "San Pedro De Los Pinos",
+		"imageUrl": "assets/Metro/Linea_7/sanpedrodelospinos.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "San Antonio",
+		"imageUrl": "assets/Metro/Linea_7/sanantonio.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Mixcoac",
+		"imageUrl": "assets/Metro/Linea_7/mixcoac.png",
+		"transfers": [
+			"Metro - Línea 12",
+			"Trolebús",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Barranca Del Muerto",
+		"imageUrl": "assets/Metro/Linea_7/barrancadelmuerto.png",
+		"transfers": [
+			"RTP"
+		]
+	}
+]

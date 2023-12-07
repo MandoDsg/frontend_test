@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Constitución De 1917",
+		"imageUrl": "assets/Cablebus/Linea_2/constituciónde1917.png",
+		"transfers": [
+			"Metro - Línea 8",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Quetzalcóatl",
+		"imageUrl": "assets/Cablebus/Linea_2/quetzalcóatl.png"
+	},
+	{
+		"name": "Torres Buenavista",
+		"imageUrl": "assets/Cablebus/Linea_2/torresbuenavista.png"
+	},
+	{
+		"name": "Xalpa",
+		"imageUrl": "assets/Cablebus/Linea_2/xalpa.png"
+	},
+	{
+		"name": "Lomas De La Estancia",
+		"imageUrl": "assets/Cablebus/Linea_2/lomasdelaestancia.png"
+	},
+	{
+		"name": "San Miguel Teotongo",
+		"imageUrl": "assets/Cablebus/Linea_2/sanmiguel.png"
+	},
+	{
+		"name": "Santa Marta",
+		"imageUrl": "assets/Cablebus/Linea_2/santamarta.png",
+		"transfers": [
+			"Metro - Línea A"
+		]
+	}
+]

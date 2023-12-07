@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Indios Verdes",
+		"imageUrl": "assets/Cablebus/Linea_1/indiosverdes.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 7",
+			"RTP"
+		]
+	},
+	{
+		"name": "Ticomán",
+		"imageUrl": "assets/Cablebus/Linea_1/ticoman.png"
+	},
+	{
+		"name": "La Pastora",
+		"imageUrl": "assets/Cablebus/Linea_1/pastora.png"
+	},
+	{
+		"name": "Campos Revolución",
+		"imageUrl": "assets/Cablebus/Linea_1/campos.png"
+	},
+	{
+		"name": "Tlalpexco",
+		"imageUrl": "assets/Cablebus/Linea_1/tlalpexco.png"
+	},
+	{
+		"name": "Cuautepec",
+		"imageUrl": "assets/Cablebus/Linea_1/cuautepec.png"
+	}
+]

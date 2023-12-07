@@ -1,0 +1,223 @@
+[
+	{
+		"name": "El Rosario",
+		"imageUrl": "assets/Metrobus/Linea_6/elrosario.png",
+		"transfers": [
+			"Metro - Línea 6",
+			"Metro - Línea 7",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Colegio De Bachilleres 1",
+		"imageUrl": "assets/Metrobus/Linea_6/colegiodebachilleres1.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "De Las Culturas",
+		"imageUrl": "assets/Metrobus/Linea_6/delasculturas.png"
+	},
+	{
+		"name": "Ferrocarriles Nacionales",
+		"imageUrl": "assets/Metrobus/Linea_6/ferrocarrilesnacionales.png"
+	},
+	{
+		"name": "UAM Azcapotzalco",
+		"imageUrl": "assets/Metrobus/Linea_6/uamazcapotzalco.png"
+	},
+	{
+		"name": "Tecnoparque",
+		"imageUrl": "assets/Metrobus/Linea_6/tecnoparque.png"
+	},
+	{
+		"name": "Norte 59",
+		"imageUrl": "assets/Metrobus/Linea_6/norte59.png"
+	},
+	{
+		"name": "Norte 45",
+		"imageUrl": "assets/Metrobus/Linea_6/norte45.png",
+		"transfers": [
+			"Metro - Línea 6"
+		]
+	},
+	{
+		"name": "Montevideo",
+		"imageUrl": "assets/Metrobus/Linea_6/montevideo.png",
+		"transfers": [
+			"Metrobús - Línea 3"
+		]
+	},
+	{
+		"name": "Lindavista - Vallejo",
+		"imageUrl": "assets/Metrobus/Linea_6/lindavistavallejo.png",
+		"transfers": [
+			"Metro - Línea 5",
+			"Metro - Línea 6",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Instituto Del Petróleo",
+		"imageUrl": "assets/Metrobus/Linea_6/institutodelpetroleo.png",
+		"transfers": [
+			"Metro - Línea 5",
+			"Metro - Línea 6",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "San Bartolo",
+		"imageUrl": "assets/Metrobus/Linea_6/sanbartolo.png"
+	},
+	{
+		"name": "Instituto Politécnico Nacional",
+		"imageUrl": "assets/Metrobus/Linea_6/institutopolitecniconacional.png"
+	},
+	{
+		"name": "Riobamba",
+		"imageUrl": "assets/Metrobus/Linea_6/riobamba.png"
+	},
+	{
+		"name": "Deportivo 18 De Marzo",
+		"imageUrl": "assets/Metrobus/Linea_6/deportivo18demarzo.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Metro - Línea 3",
+			"Metro - Línea 6"
+		]
+	},
+	{
+		"name": "La Villa",
+		"imageUrl": "assets/Metrobus/Linea_6/lavilla.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Metro - Línea 6",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "De Los Misterios",
+		"imageUrl": "assets/Metrobus/Linea_6/delosmisterios.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Hospital Infantil La Villa",
+		"imageUrl": "assets/Metrobus/Linea_6/hospitalinfantillavilla.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Delegación Gustavo A. Madero",
+		"imageUrl": "assets/Metrobus/Linea_6/delegaciongustavoamadero.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Martín Carrera",
+		"imageUrl": "assets/Metrobus/Linea_6/martincarrera.png",
+		"transfers": [
+			"Metro - Línea 4",
+			"Metro - Línea 6",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Hospital General La Villa",
+		"imageUrl": "assets/Metrobus/Linea_6/hospitalgenerallavilla.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "San Juan De Aragón",
+		"imageUrl": "assets/Metrobus/Linea_6/sanjuandearagon.png",
+		"transfers": [
+			"Metrobús - Línea 5",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Gran Canal",
+		"imageUrl": "assets/Metrobus/Linea_6/grancanal.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Casas Alemán",
+		"imageUrl": "assets/Metrobus/Linea_6/casasaleman.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Pueblo San Juan De Aragón",
+		"imageUrl": "assets/Metrobus/Linea_6/pueblosanjuandearagon.png"
+	},
+	{
+		"name": "Loreto Fabela",
+		"imageUrl": "assets/Metrobus/Linea_6/loretafabela.png"
+	},
+	{
+		"name": "482",
+		"imageUrl": "assets/Metrobus/Linea_6/482.png"
+	},
+	{
+		"name": "414",
+		"imageUrl": "assets/Metrobus/Linea_6/414.png"
+	},
+	{
+		"name": "416 Oriente",
+		"imageUrl": "assets/Metrobus/Linea_6/416oriente.png"
+	},
+	{
+		"name": "416 Poniente",
+		"imageUrl": "assets/Metrobus/Linea_6/416poniente.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Deportivo Los Galeana",
+		"imageUrl": "assets/Metrobus/Linea_6/deportivolosgaleana.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Ampliación Providencia",
+		"imageUrl": "assets/Metrobus/Linea_6/ampliacionprovidencia.png"
+	},
+	{
+		"name": "Volcán De Fuego",
+		"imageUrl": "assets/Metrobus/Linea_6/volcandefuego.png"
+	},
+	{
+		"name": "La Pradera",
+		"imageUrl": "assets/Metrobus/Linea_6/lapradera.png"
+	},
+	{
+		"name": "Colegio De Bachilleres 9",
+		"imageUrl": "assets/Metrobus/Linea_6/colegiodebachilleres9.png"
+	},
+	{
+		"name": "Francisco Morazán",
+		"imageUrl": "assets/Metrobus/Linea_6/franciscomorazan.png"
+	},
+	{
+		"name": "Villa De Aragón",
+		"imageUrl": "assets/Metrobus/Linea_6/villadearagon.png",
+		"transfers": [
+			"Metro - Línea B"
+		]
+	}
+]

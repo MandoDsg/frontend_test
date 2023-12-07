@@ -1,0 +1,166 @@
+[
+	{
+		"name": "Mixcoac",
+		"imageUrl": "assets/Metro/Linea_12/mixcoac.png",
+		"transfers": [
+			"Metro - Línea 7",
+			"Trolebús",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Insurgentes Sur",
+		"imageUrl": "assets/Metro/Linea_12/insurgentessur.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Hospital 20 De Noviembre",
+		"imageUrl": "assets/Metro/Linea_12/hospitalnoviembre.png",
+		"transfers": [
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Zapata",
+		"imageUrl": "assets/Metro/Linea_12/zapata.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metrobús - Línea 3",
+			"Trolebús",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Parque De Los Venados",
+		"imageUrl": "assets/Metro/Linea_12/parquedelosvenados.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Eje Central",
+		"imageUrl": "assets/Metro/Linea_12/ejecentral.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Ermita",
+		"imageUrl": "assets/Metro/Linea_12/ermita.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Mexicaltzingo",
+		"imageUrl": "assets/Metro/Linea_12/mexicaltzingo.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Atlalilco",
+		"imageUrl": "assets/Metro/Linea_12/atlalilco.png",
+		"transfers": [
+			"Metro - Línea 8",
+			"Metrobús - Línea 5",
+			"RTP"
+		]
+	},
+	{
+		"name": "Culhuacán",
+		"imageUrl": "assets/Metro/Linea_12/culhuacan.png",
+		"transfers": [
+			"Metrobús - Línea 5",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "San Andrés Tomatlán",
+		"imageUrl": "assets/Metro/Linea_12/sanandrestomatlan.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Lomas Estrella",
+		"imageUrl": "assets/Metro/Linea_12/lomasestrella.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Calle 11",
+		"imageUrl": "assets/Metro/Linea_12/calle11.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Periférico Oriente",
+		"imageUrl": "assets/Metro/Linea_12/perifericooriente.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Tezonco",
+		"imageUrl": "assets/Metro/Linea_12/tezonco.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Olivos",
+		"imageUrl": "assets/Metro/Linea_12/olivos.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Nopalera",
+		"imageUrl": "assets/Metro/Linea_12/nopalera.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Zapotitlán",
+		"imageUrl": "assets/Metro/Linea_12/zapotitlan.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Tlaltenco",
+		"imageUrl": "assets/Metro/Linea_12/tlaltenco.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Tláhuac",
+		"imageUrl": "assets/Metro/Linea_12/tlahuac.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	}
+]

@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Observatorio",
+		"imageUrl": "assets/El_Insurgente/observatorio.png",
+		"transfers": [
+			"Metro - Línea 1"
+		]
+	},
+	{
+		"name": "Vasco De Quiroga",
+		"imageUrl": "assets/El_Insurgente/vascodequiroga.png"
+	},
+	{
+		"name": "Santa Fe",
+		"imageUrl": "assets/El_Insurgente/santafe.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Lerma",
+		"imageUrl": "assets/El_Insurgente/lerma.png"
+	},
+	{
+		"name": "Metepec",
+		"imageUrl": "assets/El_Insurgente/metepec.png"
+	},
+	{
+		"name": "Toluca Centro",
+		"imageUrl": "assets/El_Insurgente/tolucacentro.png"
+	},
+	{
+		"name": "Zinacantepec",
+		"imageUrl": "assets/El_Insurgente/zinacantepec.png"
+	}
+]

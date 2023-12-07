@@ -1,0 +1,258 @@
+[
+	{
+		"name": "Río De Los Remedios",
+		"imageUrl": "assets/Metrobus/Linea_5/riodelosremedios.png"
+	},
+	{
+		"name": "314 Memorial News Divine",
+		"imageUrl": "assets/Metrobus/Linea_5/memorialnewsdivine.png"
+	},
+	{
+		"name": "5 De Mayo",
+		"imageUrl": "assets/Metrobus/Linea_5/5demayo.png"
+	},
+	{
+		"name": "Vasco De Quiroga",
+		"imageUrl": "assets/Metrobus/Linea_5/vascodequiroga.png"
+	},
+	{
+		"name": "El Coyol",
+		"imageUrl": "assets/Metrobus/Linea_5/elcoyol.png"
+	},
+	{
+		"name": "Preparatoria 3",
+		"imageUrl": "assets/Metrobus/Linea_5/preparatoria3.png"
+	},
+	{
+		"name": "San Juan De Aragón",
+		"imageUrl": "assets/Metrobus/Linea_5/sanjuandearagon.png",
+		"transfers": [
+			"Metrobús - Línea 6",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Río Guadalupe",
+		"imageUrl": "assets/Metrobus/Linea_5/rioguadalupe.png"
+	},
+	{
+		"name": "Talismán",
+		"imageUrl": "assets/Metrobus/Linea_5/talisman.png"
+	},
+	{
+		"name": "Victoria",
+		"imageUrl": "assets/Metrobus/Linea_5/victoria.png"
+	},
+	{
+		"name": "Oriente 101",
+		"imageUrl": "assets/Metrobus/Linea_5/oriente101.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Río Santa Coleta",
+		"imageUrl": "assets/Metrobus/Linea_5/riosantacoleta.png"
+	},
+	{
+		"name": "Río Consulado",
+		"imageUrl": "assets/Metrobus/Linea_5/rioconsulado.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Canal Del Norte",
+		"imageUrl": "assets/Metrobus/Linea_5/canaldelnorte.png"
+	},
+	{
+		"name": "Deportivo Eduardo Molina",
+		"imageUrl": "assets/Metrobus/Linea_5/deportivoeduardomolina.png"
+	},
+	{
+		"name": "Mercado Morelos",
+		"imageUrl": "assets/Metrobus/Linea_5/mercadomorelos.png"
+	},
+	{
+		"name": "Archivo General De La Nación",
+		"imageUrl": "assets/Metrobus/Linea_5/archivogeneraldelanacion.png",
+		"transfers": [
+			"Metrobús - Línea 4"
+		]
+	},
+	{
+		"name": "San Lázaro",
+		"imageUrl": "assets/Metrobus/Linea_5/sanlazaro.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Metro - Línea 1",
+			"Metro - Línea B"
+		]
+	},
+	{
+		"name": "Moctezuma",
+		"imageUrl": "assets/Metrobus/Linea_5/moctezuma.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Metro - Línea 1"
+		]
+	},
+	{
+		"name": "Venustiano Carranza",
+		"imageUrl": "assets/Metrobus/Linea_5/venustianocarranza.png"
+	},
+	{
+		"name": "Avenida Del Taller",
+		"imageUrl": "assets/Metrobus/Linea_5/avenidadeltaller.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Mixiuhca",
+		"imageUrl": "assets/Metrobus/Linea_5/mixiuhca.png",
+		"transfers": [
+			"Metro - Línea 9",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Hospital General Troncoso",
+		"imageUrl": "assets/Metrobus/Linea_5/hospitalgeneraltroncoso.png"
+	},
+	{
+		"name": "Metro Coyuya",
+		"imageUrl": "assets/Metrobus/Linea_5/metrocoyuya.png",
+		"transfers": [
+			"Metrobús - Línea 2",
+			"Metro - Línea 8"
+		]
+	},
+	{
+		"name": "Recreo",
+		"imageUrl": "assets/Metrobus/Linea_5/recreo.png"
+	},
+	{
+		"name": "Oriente 116",
+		"imageUrl": "assets/Metrobus/Linea_5/oriente116.png"
+	},
+	{
+		"name": "Colegio De Bachilleres 3",
+		"imageUrl": "assets/Metrobus/Linea_5/colegiodebachilleres3.png",
+		"transfers": [
+			"Metro - Línea 8"
+		]
+	},
+	{
+		"name": "Canal Apatlaco",
+		"imageUrl": "assets/Metrobus/Linea_5/canalapatlaco.png"
+	},
+	{
+		"name": "Apatlaco",
+		"imageUrl": "assets/Metrobus/Linea_5/apatlaco.png",
+		"transfers": [
+			"Metro - Línea 8"
+		]
+	},
+	{
+		"name": "Aculco",
+		"imageUrl": "assets/Metrobus/Linea_5/aculco.png",
+		"transfers": [
+			"Metro - Línea 8"
+		]
+	},
+	{
+		"name": "Churubusco Oriente",
+		"imageUrl": "assets/Metrobus/Linea_5/churubuscooriente.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Escuadrón 201",
+		"imageUrl": "assets/Metrobus/Linea_5/escuadron201.png",
+		"transfers": [
+			"Metro - Línea 8"
+		]
+	},
+	{
+		"name": "Atanasio G. Sarabia",
+		"imageUrl": "assets/Metrobus/Linea_5/atanasiogsarabia.png"
+	},
+	{
+		"name": "Ermita Iztapalapa",
+		"imageUrl": "assets/Metrobus/Linea_5/ermitaiztapalapa.png"
+	},
+	{
+		"name": "Ganaderos",
+		"imageUrl": "assets/Metrobus/Linea_5/ganaderos.png"
+	},
+	{
+		"name": "Pueblo De Los Reyes",
+		"imageUrl": "assets/Metrobus/Linea_5/pueblodelosreyes.png"
+	},
+	{
+		"name": "Barrio San Antonio",
+		"imageUrl": "assets/Metrobus/Linea_5/barriosanantonio.png"
+	},
+	{
+		"name": "Calzada Taxqueña",
+		"imageUrl": "assets/Metrobus/Linea_5/calzadatasquena.png",
+		"transfers": [
+			"Metro - Línea 12",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Cafetales",
+		"imageUrl": "assets/Metrobus/Linea_5/cafetales.png"
+	},
+	{
+		"name": "ESIME Culhuacán",
+		"imageUrl": "assets/Metrobus/Linea_5/esimeculhuacan.png"
+	},
+	{
+		"name": "Manuela Sáenz",
+		"imageUrl": "assets/Metrobus/Linea_5/manuelasaenz.png"
+	},
+	{
+		"name": "La Virgen",
+		"imageUrl": "assets/Metrobus/Linea_5/lavirgen.png"
+	},
+	{
+		"name": "Tepetlapa",
+		"imageUrl": "assets/Metrobus/Linea_5/tepetlapa.png"
+	},
+	{
+		"name": "Las Bombas",
+		"imageUrl": "assets/Metrobus/Linea_5/lasbombas.png"
+	},
+	{
+		"name": "Vista Hermosa",
+		"imageUrl": "assets/Metrobus/Linea_5/vistahermosa.png"
+	},
+	{
+		"name": "Calzada Del Hueso",
+		"imageUrl": "assets/Metrobus/Linea_5/calzadadelhueso.png"
+	},
+	{
+		"name": "Cañaverales",
+		"imageUrl": "assets/Metrobus/Linea_5/canaverales.png"
+	},
+	{
+		"name": "Muyuguarda",
+		"imageUrl": "assets/Metrobus/Linea_5/muyuguarda.png"
+	},
+	{
+		"name": "Circuito Cuemanco",
+		"imageUrl": "assets/Metrobus/Linea_5/circuitocuemanco.png"
+	},
+	{
+		"name": "DIF Xochimilco",
+		"imageUrl": "assets/Metrobus/Linea_5/difxochimilco.png"
+	},
+	{
+		"name": "Preparatoria 1",
+		"imageUrl": "assets/Metrobus/Linea_5/preparatoria1.png"
+	}
+]

@@ -1,0 +1,251 @@
+[
+	{
+		"name": "Indios Verdes",
+		"imageUrl": "assets/Metrobus/Linea_7/indiosverdes.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Metro - Línea 3",
+			"Cablebús - Línea 1"
+		]
+	},
+	{
+		"name": "Hospital Infantil La Villa",
+		"imageUrl": "assets/Metrobus/Linea_7/hospitalinfantillavilla.png",
+		"transfers": [
+			"Metrobús - Línea 6",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "De Los Misterios",
+		"imageUrl": "assets/Metrobus/Linea_7/delosmisterios.png",
+		"transfers": [
+			"Metrobús - Línea 6",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Delegación Gustavo A. Madero",
+		"imageUrl": "assets/Metrobus/Linea_7/delegaciongustavoamadero.png",
+		"transfers": [
+			"Metrobús - Línea 6",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Garrido",
+		"imageUrl": "assets/Metrobus/Linea_7/garrido.png",
+		"transfers": [
+			"Metro - Línea 6",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Avenida Talismán",
+		"imageUrl": "assets/Metrobus/Linea_7/avenidatalisman.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Necaxa",
+		"imageUrl": "assets/Metrobus/Linea_7/necaxa.png"
+	},
+	{
+		"name": "Excélsior",
+		"imageUrl": "assets/Metrobus/Linea_7/excelsior.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Robles Domínguez",
+		"imageUrl": "assets/Metrobus/Linea_7/roblesdominguez.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Clave",
+		"imageUrl": "assets/Metrobus/Linea_7/clave.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Misterios",
+		"imageUrl": "assets/Metrobus/Linea_7/misterios.png",
+		"transfers": [
+			"Metro - Línea 5",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Mercado Beethoven",
+		"imageUrl": "assets/Metrobus/Linea_7/mercadobethoveen.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Peralvillo",
+		"imageUrl": "assets/Metrobus/Linea_7/peralvillo.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Tres Culturas",
+		"imageUrl": "assets/Metrobus/Linea_7/tresculturas.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Glorieta Cuitláhuac",
+		"imageUrl": "assets/Metrobus/Linea_7/glorietacuitlahuac.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Garibaldi",
+		"imageUrl": "assets/Metrobus/Linea_7/garibaldi.png",
+		"transfers": [
+			"Metro - Línea 8",
+			"Metro - Línea B",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Glorieta Violeta",
+		"imageUrl": "assets/Metrobus/Linea_7/glorietavioleta.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Hidalgo",
+		"imageUrl": "assets/Metrobus/Linea_7/hidalgo.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Metrobús - Línea 4",
+			"Metro - Línea 2",
+			"Metro - Línea 3",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "El Caballito",
+		"imageUrl": "assets/Metrobus/Linea_7/elcaballito.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Glorieta de Colón",
+		"imageUrl": "assets/Metrobus/Linea_7/glorietadecolon.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "París",
+		"imageUrl": "assets/Metrobus/Linea_7/paris.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Reforma",
+		"imageUrl": "assets/Metrobus/Linea_7/reforma.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Hamburgo",
+		"imageUrl": "assets/Metrobus/Linea_7/hamburgo.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "La Palma",
+		"imageUrl": "assets/Metrobus/Linea_7/lapalma.png",
+		"transfers": [
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "El Ángel",
+		"imageUrl": "assets/Metrobus/Linea_7/elangel.png",
+		"transfers": [
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "La Diana",
+		"imageUrl": "assets/Metrobus/Linea_7/ladiana.png",
+		"transfers": [
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Chapultepec",
+		"imageUrl": "assets/Metrobus/Linea_7/chapultepec.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Gandhi",
+		"imageUrl": "assets/Metrobus/Linea_7/gandhi.png",
+		"transfers": [
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Antropología",
+		"imageUrl": "assets/Metrobus/Linea_7/antropologia.png",
+		"transfers": [
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Auditorio",
+		"imageUrl": "assets/Metrobus/Linea_7/auditorio.png",
+		"transfers": [
+			"Metro - Línea 7",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Campo Marte",
+		"imageUrl": "assets/Metrobus/Linea_7/campomarte.png",
+		"transfers": [
+			"Trolebús",
+			"Ecobici"
+		]
+	}
+]

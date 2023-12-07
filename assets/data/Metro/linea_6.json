@@ -1,0 +1,83 @@
+[
+	{
+		"name": "El Rosario",
+		"imageUrl": "assets/Metro/Linea_6/elrosario.png",
+		"transfers": [
+			"Metro - Línea 7",
+			"Metrobús - Línea 6",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Tezozómoc",
+		"imageUrl": "assets/Metro/Linea_6/tezozomoc.png"
+	},
+	{
+		"name": "Azcapotzalco",
+		"imageUrl": "assets/Metro/Linea_6/azcapotzalco.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Ferrería",
+		"imageUrl": "assets/Metro/Linea_6/ferreria.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Norte 45",
+		"imageUrl": "assets/Metro/Linea_6/norte45.png"
+	},
+	{
+		"name": "Vallejo",
+		"imageUrl": "assets/Metro/Linea_6/vallejo.png"
+	},
+	{
+		"name": "Instituto Del Petróleo",
+		"imageUrl": "assets/Metro/Linea_6/imp.png",
+		"transfers": [
+			"Metro - Línea 5",
+			"Metrobús - Línea 6",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Lindavista",
+		"imageUrl": "assets/Metro/Linea_6/lindavista.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Deportivo 18 De Marzo",
+		"imageUrl": "assets/Metro/Linea_6/deportivo.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 6"
+		]
+	},
+	{
+		"name": "La Villa / Basílica",
+		"imageUrl": "assets/Metro/Linea_6/lavillabasilica.png",
+		"transfers": [
+			"Metrobús - Línea 6",
+			"Metrobús - Línea 7",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Martín Carrera",
+		"imageUrl": "assets/Metro/Linea_6/martincarrera.png",
+		"transfers": [
+			"Metro - Línea 4",
+			"Metrobús - Línea 6",
+			"Trolebús",
+			"RTP"
+		]
+	}
+]

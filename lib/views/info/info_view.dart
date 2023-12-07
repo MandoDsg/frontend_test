@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/languages/language_constants.dart';
+import 'package:frontend/views/info/pages/info_elinsurgente.dart';
 import 'package:frontend/views/info/pages/info_metro.dart';
 import 'package:frontend/views/info/pages/info_metrobus.dart';
 import 'package:frontend/views/info/pages/info_mi.dart';
@@ -17,7 +18,7 @@ class _InfoViewState extends State<InfoView> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 5,
+      length: 6,
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Theme.of(context).colorScheme.background,
@@ -41,6 +42,9 @@ class _InfoViewState extends State<InfoView> {
               Tab(
                 icon: Image.asset('assets/dashboard/logocablebus.png'),
               ),
+              Tab(
+                icon: Image.asset('assets/dashboard/logoelinsurgente.png'),
+              ),
             ],
           ),
         ),
@@ -51,6 +55,7 @@ class _InfoViewState extends State<InfoView> {
           InfoMetrobus(),
           InfoTrenLigero(),
           InfoCablebus(),
+          InfoElInsurgente(),
         ]),
       ),
     );

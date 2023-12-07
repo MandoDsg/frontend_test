@@ -1,0 +1,106 @@
+[
+	{
+		"name": "Tacubaya",
+		"imageUrl": "assets/Metro/Linea_9/tacubaya.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metro - Línea 7",
+			"Metrobús - Línea 2",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Patriotismo",
+		"imageUrl": "assets/Metro/Linea_9/patriotismo.png",
+		"transfers": [
+			"Metrobús - Línea 2",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Chilpancingo",
+		"imageUrl": "assets/Metro/Linea_9/chilpancingo.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Centro Médico",
+		"imageUrl": "assets/Metro/Linea_9/centromedico.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metrobús - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Lázaro Cárdenas",
+		"imageUrl": "assets/Metro/Linea_9/lazarocardenas.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Chabacano",
+		"imageUrl": "assets/Metro/Linea_9/chabacano.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Metro - Línea 8",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Jamaica",
+		"imageUrl": "assets/Metro/Linea_9/jamaica.png",
+		"transfers": [
+			"Metro - Línea 4",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Mixiuhca",
+		"imageUrl": "assets/Metro/Linea_9/mixiuhca.png",
+		"transfers": [
+			"Metrobús - Línea 5",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Velódromo",
+		"imageUrl": "assets/Metro/Linea_9/velodromo.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Ciudad Deportiva",
+		"imageUrl": "assets/Metro/Linea_9/ciudaddeportiva.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Puebla",
+		"imageUrl": "assets/Metro/Linea_9/puebla.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Pantitlán",
+		"imageUrl": "assets/Metro/Linea_9/pantitlan.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metro - Línea 5",
+			"Metro - Línea A",
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"RTP"
+		]
+	}
+]

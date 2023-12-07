@@ -1,0 +1,311 @@
+[
+	{
+		"name": "Indios Verdes",
+		"imageUrl": "assets/Metrobus/Linea_1/indiosverdes.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Metro - Línea 3",
+			"Cablebús - Línea 1",
+			"RTP"
+		]
+	},
+	{
+		"name": "Deportivo 18 De Marzo",
+		"imageUrl": "assets/Metrobus/Linea_1/deportivo18demarzo.png",
+		"transfers": [
+			"Metrobús - Línea 6",
+			"Metro - Línea 3",
+			"Metro - Línea 6"
+		]
+	},
+	{
+		"name": "Euzkaro",
+		"imageUrl": "assets/Metrobus/Linea_1/euzkaro.png"
+	},
+	{
+		"name": "Potrero",
+		"imageUrl": "assets/Metrobus/Linea_1/potrero.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"RTP"
+		]
+	},
+	{
+		"name": "La Raza",
+		"imageUrl": "assets/Metrobus/Linea_1/laraza.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Metro - Línea 3",
+			"Metro - Línea 5",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Circuito",
+		"imageUrl": "assets/Metrobus/Linea_1/circuito.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"RTP"
+		]
+	},
+	{
+		"name": "San Simón",
+		"imageUrl": "assets/Metrobus/Linea_1/sansimon.png"
+	},
+	{
+		"name": "Manuel González",
+		"imageUrl": "assets/Metrobus/Linea_1/manuelgonzalez.png"
+	},
+	{
+		"name": "Buenavista",
+		"imageUrl": "assets/Metrobus/Linea_1/buenavista.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Metrobús - Línea 4",
+			"Metro - Línea B",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "El Chopo",
+		"imageUrl": "assets/Metrobus/Linea_1/elchopo.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Revolución",
+		"imageUrl": "assets/Metrobus/Linea_1/revolucion.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Plaza De La República",
+		"imageUrl": "assets/Metrobus/Linea_1/plazadelarepublica.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Reforma",
+		"imageUrl": "assets/Metrobus/Linea_1/reforma.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Hamburgo",
+		"imageUrl": "assets/Metrobus/Linea_1/hamburgo.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Insurgentes",
+		"imageUrl": "assets/Metrobus/Linea_1/insurgentes.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Durango",
+		"imageUrl": "assets/Metrobus/Linea_1/durango.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Álvaro Obregón",
+		"imageUrl": "assets/Metrobus/Linea_1/alvaroobregon.png",
+		"transfers": [
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Sonora",
+		"imageUrl": "assets/Metrobus/Linea_1/sonora.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Campeche",
+		"imageUrl": "assets/Metrobus/Linea_1/campeche.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Chilpancingo",
+		"imageUrl": "assets/Metrobus/Linea_1/chilpancingo.png",
+		"transfers": [
+			"Metro - Línea 9",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Nuevo León",
+		"imageUrl": "assets/Metrobus/Linea_1/nuevoleon.png",
+		"transfers": [
+			"Metrobús - Línea 2",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "La Piedad",
+		"imageUrl": "assets/Metrobus/Linea_1/lapiedad.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Polifórum",
+		"imageUrl": "assets/Metrobus/Linea_1/poliforum.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Nápoles",
+		"imageUrl": "assets/Metrobus/Linea_1/napoles.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Colonia Del Valle",
+		"imageUrl": "assets/Metrobus/Linea_1/coloniadelvalle.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Ciudad De Los Deportes",
+		"imageUrl": "assets/Metrobus/Linea_1/ciudaddelosdeportes.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Parque Hundido",
+		"imageUrl": "assets/Metrobus/Linea_1/parquehundido.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Félix Cuevas",
+		"imageUrl": "assets/Metrobus/Linea_1/felixcuevas.png",
+		"transfers": [
+			"Metro - Línea 12",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Río Churubusco",
+		"imageUrl": "assets/Metrobus/Linea_1/riochurubusco.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Teatro Insurgentes",
+		"imageUrl": "assets/Metrobus/Linea_1/teatroinsurgentes.png"
+	},
+	{
+		"name": "José María Velasco",
+		"imageUrl": "assets/Metrobus/Linea_1/josemariavelasco.png"
+	},
+	{
+		"name": "Francia",
+		"imageUrl": "assets/Metrobus/Linea_1/francia.png"
+	},
+	{
+		"name": "Olivo",
+		"imageUrl": "assets/Metrobus/Linea_1/olivo.png"
+	},
+	{
+		"name": "Altavista",
+		"imageUrl": "assets/Metrobus/Linea_1/altavista.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "La Bombilla",
+		"imageUrl": "assets/Metrobus/Linea_1/labombilla.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Doctor Gálvez",
+		"imageUrl": "assets/Metrobus/Linea_1/doctorgalvez.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Ciudad Universitaria",
+		"imageUrl": "assets/Metrobus/Linea_1/ciudaduniversitaria.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Centro Cultural Universitario",
+		"imageUrl": "assets/Metrobus/Linea_1/centroculturaluniversitario.png"
+	},
+	{
+		"name": "Perisur",
+		"imageUrl": "assets/Metrobus/Linea_1/perisur.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Villa Olímpica",
+		"imageUrl": "assets/Metrobus/Linea_1/villaolimpica.png"
+	},
+	{
+		"name": "Corregidora",
+		"imageUrl": "assets/Metrobus/Linea_1/corregidora.png"
+	},
+	{
+		"name": "Ayuntamiento",
+		"imageUrl": "assets/Metrobus/Linea_1/ayuntamiento.png"
+	},
+	{
+		"name": "Fuentes Brotantes",
+		"imageUrl": "assets/Metrobus/Linea_1/fuentesbrotantes.png"
+	},
+	{
+		"name": "Santa Úrsula",
+		"imageUrl": "assets/Metrobus/Linea_1/santaursula.png"
+	},
+	{
+		"name": "La Joya",
+		"imageUrl": "assets/Metrobus/Linea_1/lajoya.png"
+	},
+	{
+		"name": "El Caminero",
+		"imageUrl": "assets/Metrobus/Linea_1/elcaminero.png",
+		"transfers": [
+			"RTP"
+		]
+	}
+]

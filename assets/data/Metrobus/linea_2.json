@@ -1,0 +1,216 @@
+[
+	{
+		"name": "Tacubaya",
+		"imageUrl": "assets/Metrobus/Linea_2/tacubaya.png",
+		"transfers": [
+			"Metro - Línea 7",
+			"Metro - Línea 9",
+			"Metro - Línea 1",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Antonio Maceo",
+		"imageUrl": "assets/Metrobus/Linea_2/antoniomaceo.png"
+	},
+	{
+		"name": "Parque Lira",
+		"imageUrl": "assets/Metrobus/Linea_2/parquelira.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "De La Salle",
+		"imageUrl": "assets/Metrobus/Linea_2/delasalle.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Patriotismo",
+		"imageUrl": "assets/Metrobus/Linea_2/patriotismo.png",
+		"transfers": [
+			"Metro - Línea 9",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Escandón",
+		"imageUrl": "assets/Metrobus/Linea_2/escandon.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Nuevo León",
+		"imageUrl": "assets/Metrobus/Linea_2/nuevoleon.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Viaducto",
+		"imageUrl": "assets/Metrobus/Linea_2/viaducto.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Amores",
+		"imageUrl": "assets/Metrobus/Linea_2/amores.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Etiopía",
+		"imageUrl": "assets/Metrobus/Linea_2/etiopia.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Metro - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Doctor Vértiz",
+		"imageUrl": "assets/Metrobus/Linea_2/doctorvertiz.png"
+	},
+	{
+		"name": "Centro SCOP",
+		"imageUrl": "assets/Metrobus/Linea_2/centroscop.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Álamos",
+		"imageUrl": "assets/Metrobus/Linea_2/alamos.png"
+	},
+	{
+		"name": "Xola",
+		"imageUrl": "assets/Metrobus/Linea_2/xola.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"RTP"
+		]
+	},
+	{
+		"name": "Las Américas",
+		"imageUrl": "assets/Metrobus/Linea_2/lasamericas.png"
+	},
+	{
+		"name": "Andrés Molina",
+		"imageUrl": "assets/Metrobus/Linea_2/andresmolina.png"
+	},
+	{
+		"name": "La Viga",
+		"imageUrl": "assets/Metrobus/Linea_2/laviga.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Coyuya",
+		"imageUrl": "assets/Metrobus/Linea_2/coyuya.png"
+	},
+	{
+		"name": "Metro Coyuya",
+		"imageUrl": "assets/Metrobus/Linea_2/metrocoyuya.png",
+		"transfers": [
+			"Metrobús - Línea 5",
+			"Metro - Línea 8"
+		]
+	},
+	{
+		"name": "Canela",
+		"imageUrl": "assets/Metrobus/Linea_2/canela.png"
+	},
+	{
+		"name": "Tlacotal",
+		"imageUrl": "assets/Metrobus/Linea_2/tlacotal.png"
+	},
+	{
+		"name": "Goma",
+		"imageUrl": "assets/Metrobus/Linea_2/goma.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Iztacalco",
+		"imageUrl": "assets/Metrobus/Linea_2/iztacalco.png"
+	},
+	{
+		"name": "UPIICSA",
+		"imageUrl": "assets/Metrobus/Linea_2/upiicsa.png"
+	},
+	{
+		"name": "El Rodeo",
+		"imageUrl": "assets/Metrobus/Linea_2/elrodeo.png"
+	},
+	{
+		"name": "Río Tecolutla",
+		"imageUrl": "assets/Metrobus/Linea_2/riotecolutla.png"
+	},
+	{
+		"name": "Río Mayo",
+		"imageUrl": "assets/Metrobus/Linea_2/riomayo.png"
+	},
+	{
+		"name": "Rojo Gómez",
+		"imageUrl": "assets/Metrobus/Linea_2/rojogomez.png"
+	},
+	{
+		"name": "Del Moral",
+		"imageUrl": "assets/Metrobus/Linea_2/delmoral.png"
+	},
+	{
+		"name": "Río Frío",
+		"imageUrl": "assets/Metrobus/Linea_2/riofrio.png"
+	},
+	{
+		"name": "Leyes De Reforma",
+		"imageUrl": "assets/Metrobus/Linea_2/leyesdereforma.png"
+	},
+	{
+		"name": "CCH Oriente",
+		"imageUrl": "assets/Metrobus/Linea_2/cchoriente.png"
+	},
+	{
+		"name": "Constitución De Apatzingán",
+		"imageUrl": "assets/Metrobus/Linea_2/constituciondeapatzingan.png"
+	},
+	{
+		"name": "Canal De San Juan",
+		"imageUrl": "assets/Metrobus/Linea_2/canaldesanjuan.png",
+		"transfers": [
+			"Metro - Línea A",
+			"RTP"
+		]
+	},
+	{
+		"name": "Nicolás Bravo",
+		"imageUrl": "assets/Metrobus/Linea_2/nicolasbravo.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "General Antonio De León",
+		"imageUrl": "assets/Metrobus/Linea_2/generalantoniodeleon.png"
+	},
+	{
+		"name": "Tepalcates",
+		"imageUrl": "assets/Metrobus/Linea_2/tepalcates.png",
+		"transfers": [
+			"Metro - Línea A",
+			"RTP"
+		]
+	}
+]

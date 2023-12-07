@@ -1,0 +1,194 @@
+[
+	{
+		"name": "Cuatro Caminos",
+		"imageUrl": "assets/Metro/Linea_2/cuatrocaminos.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Panteones",
+		"imageUrl": "assets/Metro/Linea_2/panteones.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Tacuba",
+		"imageUrl": "assets/Metro/Linea_2/tacuba.png",
+		"transfers": [
+			"Metro - Línea 7",
+			"RTP"
+		]
+	},
+	{
+		"name": "Cuitláhuac",
+		"imageUrl": "assets/Metro/Linea_2/cuitlahuac.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Popotla",
+		"imageUrl": "assets/Metro/Linea_2/popotla.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Colegio Militar",
+		"imageUrl": "assets/Metro/Linea_2/colegiomilitar.png"
+	},
+	{
+		"name": "Normal",
+		"imageUrl": "assets/Metro/Linea_2/normal.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "San Cosme",
+		"imageUrl": "assets/Metro/Linea_2/sancosme.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Revolución",
+		"imageUrl": "assets/Metro/Linea_2/revolucion.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 4",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Hidalgo",
+		"imageUrl": "assets/Metro/Linea_2/hidalgo.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metrobús - Línea 3",
+			"Metrobús - Línea 4",
+			"Metrobús - Línea 7",
+			"Trolebús",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Bellas Artes",
+		"imageUrl": "assets/Metro/Linea_2/bellasartes.png",
+		"transfers": [
+			"Metro - Línea 8",
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Allende",
+		"imageUrl": "assets/Metro/Linea_2/allende.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Zócalo",
+		"imageUrl": "assets/Metro/Linea_2/zocalo.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Pino Suárez",
+		"imageUrl": "assets/Metro/Linea_2/pinosuarez.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metrobús - Línea 4",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "San Antonio Abad",
+		"imageUrl": "assets/Metro/Linea_2/sanantonioabad.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Chabacano",
+		"imageUrl": "assets/Metro/Linea_2/chabacano.png",
+		"transfers": [
+			"Metro - Línea 8",
+			"Metro - Línea 9",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Viaducto",
+		"imageUrl": "assets/Metro/Linea_2/viaducto.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Xola",
+		"imageUrl": "assets/Metro/Linea_2/xola.png",
+		"transfers": [
+			"Metrobús - Línea 2",
+			"RTP"
+		]
+	},
+	{
+		"name": "Villa De Cortes",
+		"imageUrl": "assets/Metro/Linea_2/villadecortes.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Nativitas",
+		"imageUrl": "assets/Metro/Linea_2/nativitas.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Portales",
+		"imageUrl": "assets/Metro/Linea_2/portales.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Ermita",
+		"imageUrl": "assets/Metro/Linea_2/ermita.png",
+		"transfers": [
+			"Metro - Línea 12",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "General Anaya",
+		"imageUrl": "assets/Metro/Linea_2/generalanaya.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Tasqueña",
+		"imageUrl": "assets/Metro/Linea_2/tasquena.png",
+		"transfers": [
+			"Tren Ligero",
+			"RTP"
+		]
+	}
+]

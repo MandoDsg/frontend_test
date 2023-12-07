@@ -25,14 +25,14 @@ class _SubCablebusState extends State<SubCablebus> {
               crossAxisCount: 2, crossAxisSpacing: 20, mainAxisSpacing: 20),
           children: [
             DashboardItem(
-              imagePath: 'assets/Cablebus/Linea_1/linea_1.png',
+              imagePath: 'assets/dashboard/cb_linea_1.png',
               title: 'Línea 1',
               onTap: () {
                 context.goNamed("subCablebusL1");
               },
             ),
             DashboardItem(
-              imagePath: 'assets/Cablebus/Linea_2/linea_2.png',
+              imagePath: 'assets/dashboard/cb_linea_2.png',
               title: 'Línea 2',
               onTap: () {
                 context.goNamed("subCablebusL2");

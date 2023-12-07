@@ -1,0 +1,78 @@
+[
+	{
+		"name": "Tasqueña",
+		"imageUrl": "assets/Tren_Ligero/tasquena.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Las Torres",
+		"imageUrl": "assets/Tren_Ligero/lastorres.png"
+	},
+	{
+		"name": "Ciudad Jardín",
+		"imageUrl": "assets/Tren_Ligero/ciudadjardin.png"
+	},
+	{
+		"name": "La Virgen",
+		"imageUrl": "assets/Tren_Ligero/lavirgen.png"
+	},
+	{
+		"name": "Xotepingo",
+		"imageUrl": "assets/Tren_Ligero/xotepingo.png"
+	},
+	{
+		"name": "Nezahualpilli",
+		"imageUrl": "assets/Tren_Ligero/nezahualpilli.png"
+	},
+	{
+		"name": "Registro Federal",
+		"imageUrl": "assets/Tren_Ligero/registrofederal.png"
+	},
+	{
+		"name": "Textitlán",
+		"imageUrl": "assets/Tren_Ligero/textitlan.png"
+	},
+	{
+		"name": "El Vergel",
+		"imageUrl": "assets/Tren_Ligero/elvergel.png"
+	},
+	{
+		"name": "Estadio Azteca",
+		"imageUrl": "assets/Tren_Ligero/estadioazteca.png"
+	},
+	{
+		"name": "Huipulco",
+		"imageUrl": "assets/Tren_Ligero/huipulco.png"
+	},
+	{
+		"name": "Xomali",
+		"imageUrl": "assets/Tren_Ligero/xomali.png"
+	},
+	{
+		"name": "Periférico",
+		"imageUrl": "assets/Tren_Ligero/periferico.png"
+	},
+	{
+		"name": "Tepepan",
+		"imageUrl": "assets/Tren_Ligero/tepepan.png"
+	},
+	{
+		"name": "La Noria",
+		"imageUrl": "assets/Tren_Ligero/lanoria.png"
+	},
+	{
+		"name": "Huichapan",
+		"imageUrl": "assets/Tren_Ligero/huichapan.png"
+	},
+	{
+		"name": "Francisco Goitia",
+		"imageUrl": "assets/Tren_Ligero/franciscogoitia.png"
+	},
+	{
+		"name": "Xochimilco",
+		"imageUrl": "assets/Tren_Ligero/xochimilco.png"
+	}
+]

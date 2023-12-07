@@ -1,0 +1,290 @@
+[
+	{
+		"name": "Buenavista",
+		"imageUrl": "assets/Metrobus/Linea_4/buenavista.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 3",
+			"Metro - Línea B",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Delegación Cuauhtémoc",
+		"imageUrl": "assets/Metrobus/Linea_4/delegacioncuauhtemoc.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "México Tenochtitlan",
+		"imageUrl": "assets/Metrobus/Linea_4/mexicotenochtitlan.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Plaza De La República",
+		"imageUrl": "assets/Metrobus/Linea_4/plazadelarepublica.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Glorieta De Colón",
+		"imageUrl": "assets/Metrobus/Linea_4/glorietadecolon.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Defensoría Pública",
+		"imageUrl": "assets/Metrobus/Linea_4/defensoria.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Vocacional 5",
+		"imageUrl": "assets/Metrobus/Linea_4/vocacional5.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Juárez",
+		"imageUrl": "assets/Metrobus/Linea_4/juarez.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Metro - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Mercados De San Juan",
+		"imageUrl": "assets/Metrobus/Linea_4/mercadossanjuan.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Eje Central",
+		"imageUrl": "assets/Metrobus/Linea_4/ejecentral.png",
+		"transfers": [
+			"Metro - Línea 8",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "El Salvador",
+		"imageUrl": "assets/Metrobus/Linea_4/elsalvador.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Isabel La Católica",
+		"imageUrl": "assets/Metrobus/Linea_4/isabellacatolica.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Museo De La Ciudad",
+		"imageUrl": "assets/Metrobus/Linea_4/museodelaciudad.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Pino Suárez",
+		"imageUrl": "assets/Metrobus/Linea_4/pinosuarez.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metro - Línea 2",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Las Cruces",
+		"imageUrl": "assets/Metrobus/Linea_4/lascruces.png"
+	},
+	{
+		"name": "La Merced",
+		"imageUrl": "assets/Metrobus/Linea_4/lamerced.png",
+		"transfers": [
+			"Metro - Línea 1"
+		]
+	},
+	{
+		"name": "Mercado Sonora",
+		"imageUrl": "assets/Metrobus/Linea_4/mercadosonora.png"
+	},
+	{
+		"name": "Cecilio Robelo",
+		"imageUrl": "assets/Metrobus/Linea_4/ceciliorobelo.png"
+	},
+	{
+		"name": "Mercado Sonora Sur",
+		"imageUrl": "assets/Metrobus/Linea_4/mercadosonora.png"
+	},
+	{
+		"name": "San Pablo",
+		"imageUrl": "assets/Metrobus/Linea_4/sanpablo.png"
+	},
+	{
+		"name": "Pino Suárez Sur",
+		"imageUrl": "assets/Metrobus/Linea_4/pinosuarez.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metro - Línea 2",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "20 De Noviembre",
+		"imageUrl": "assets/Metrobus/Linea_4/20denoviembre.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Ing. Eduardo Molina",
+		"imageUrl": "assets/Metrobus/Linea_4/eduardomolina.png"
+	},
+	{
+		"name": "Hospital Balbuena",
+		"imageUrl": "assets/Metrobus/Linea_4/hospitalbalbuena.png"
+	},
+	{
+		"name": "Moctezuma",
+		"imageUrl": "assets/Metrobus/Linea_4/moctezuma.png",
+		"transfers": [
+			"Metrobús - Línea 5",
+			"Metro - Línea 1"
+		]
+	},
+	{
+		"name": "San Lázaro",
+		"imageUrl": "assets/Metrobus/Linea_4/sanlazaro.png",
+		"transfers": [
+			"Metrobús - Línea 5",
+			"Metro - Línea 1",
+			"Metro - Línea B"
+		]
+	},
+	{
+		"name": "Aeropuerto Terminal 1",
+		"imageUrl": "assets/Metrobus/Linea_4/terminal1.png"
+	},
+	{
+		"name": "Aeropuerto Terminal 2",
+		"imageUrl": "assets/Metrobus/Linea_4/terminal2.png"
+	},
+	{
+		"name": "Museo San Carlos",
+		"imageUrl": "assets/Metrobus/Linea_4/museosancarlos.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Hidalgo",
+		"imageUrl": "assets/Metrobus/Linea_4/hidalgo.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Metrobús - Línea 7",
+			"Metro - Línea 2",
+			"Metro - Línea 3",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Bellas Artes",
+		"imageUrl": "assets/Metrobus/Linea_4/bellasartes.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Metro - Línea 8",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Teatro Blanquita",
+		"imageUrl": "assets/Metrobus/Linea_4/teatroblanquita.png",
+		"transfers": [
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "República De Chile",
+		"imageUrl": "assets/Metrobus/Linea_4/republicadechile.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "República De Argentina",
+		"imageUrl": "assets/Metrobus/Linea_4/republicadeargentina.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Teatro Del Pueblo",
+		"imageUrl": "assets/Metrobus/Linea_4/teatrodelpueblo.png"
+	},
+	{
+		"name": "Mixcalco",
+		"imageUrl": "assets/Metrobus/Linea_4/mixcalco.png"
+	},
+	{
+		"name": "Ferrocarril De Cintura",
+		"imageUrl": "assets/Metrobus/Linea_4/ferrocarrildecintura.png"
+	},
+	{
+		"name": "Morelos",
+		"imageUrl": "assets/Metrobus/Linea_4/morelos.png",
+		"transfers": [
+			"Metro - Línea 4",
+			"Metro - Línea B"
+		]
+	},
+	{
+		"name": "Archivo General De La Nación",
+		"imageUrl": "assets/Metrobus/Linea_4/archivogeneraldelanacion.png",
+		"transfers": [
+			"Metrobús - Línea 5"
+		]
+	},
+	{
+		"name": "Pantitlán",
+		"imageUrl": "assets/Metrobus/Linea_4/pantitlan.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metro - Línea 5",
+			"Metro - Línea 9",
+			"Metro - Línea A",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Alameda Oriente",
+		"imageUrl": "assets/Metrobus/Linea_4/alameda.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Calle 6",
+		"imageUrl": "assets/Metrobus/Linea_4/calle6.png"
+	}
+]

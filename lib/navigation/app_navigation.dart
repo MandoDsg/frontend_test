@@ -27,6 +27,7 @@ import 'package:frontend/views/movilidad_integrada/metrobus/mb_linea_5.dart';
 import 'package:frontend/views/movilidad_integrada/metrobus/mb_linea_6.dart';
 import 'package:frontend/views/movilidad_integrada/metrobus/mb_linea_7.dart';
 import 'package:frontend/views/movilidad_integrada/trenligero/trenligero_view.dart';
+import 'package:frontend/views/movilidad_integrada/elinsurgente/elinsurgente_view.dart';
 import 'package:frontend/views/movilidad_integrada/cablebus/cablebus_view.dart';
 import 'package:frontend/views/movilidad_integrada/cablebus/cb_linea_1.dart';
 import 'package:frontend/views/settings/settings_view.dart';
@@ -482,6 +483,28 @@ class AppNavigation {
                       return CustomTransitionPage<void>(
                         key: state.pageKey,
                         child: const SubTrenLigero(),
+                        transitionsBuilder: (
+                          context,
+                          animation,
+                          secondaryAnimation,
+                          child,
+                        ) =>
+                            FadeTransition(opacity: animation, child: child),
+                      );
+                    },
+                  ),
+                  //? ----------------------------------------------------------
+                  //? ----------------------------------------------------------
+                  //? -------------------| El Insurgente |----------------------
+                  //? ----------------------------------------------------------
+                  //? ----------------------------------------------------------
+                  GoRoute(
+                    path: "subElInsurgente",
+                    name: "subElInsurgente",
+                    pageBuilder: (context, state) {
+                      return CustomTransitionPage<void>(
+                        key: state.pageKey,
+                        child: const SubElInsurgente(),
                         transitionsBuilder: (
                           context,
                           animation,

@@ -1,0 +1,75 @@
+[
+	{
+		"name": "Pantitlán",
+		"imageUrl": "assets/Metro/Linea_A/pantitlan.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metro - Línea 5",
+			"Metro - Línea 9",
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Agrícola Oriental",
+		"imageUrl": "assets/Metro/Linea_A/agricolaoriental.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Canal De San Juan",
+		"imageUrl": "assets/Metro/Linea_A/canaldesanjuan.png",
+		"transfers": [
+			"Metrobús - Línea 2",
+			"RTP"
+		]
+	},
+	{
+		"name": "Tepalcates",
+		"imageUrl": "assets/Metro/Linea_A/tepalcates.png",
+		"transfers": [
+			"Metrobús - Línea 2",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Guelatao",
+		"imageUrl": "assets/Metro/Linea_A/guelatao.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Peñón Viejo",
+		"imageUrl": "assets/Metro/Linea_A/penonviejo.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Acatitla",
+		"imageUrl": "assets/Metro/Linea_A/acatitla.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Santa Marta",
+		"imageUrl": "assets/Metro/Linea_A/santamarta.png",
+		"transfers": [
+			"Cablebús - Línea 2",
+			"RTP"
+		]
+	},
+	{
+		"name": "Los Reyes",
+		"imageUrl": "assets/Metro/Linea_A/losreyes.png"
+	},
+	{
+		"name": "La Paz",
+		"imageUrl": "assets/Metro/Linea_A/lapaz.png"
+	}
+]

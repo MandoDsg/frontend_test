@@ -1,0 +1,163 @@
+[
+	{
+		"name": "Observatorio",
+		"imageUrl": "assets/Metro/Linea_1/observatorio.png",
+		"transfers": [
+			"El Insurgente"
+		]
+	},
+	{
+		"name": "Tacubaya",
+		"imageUrl": "assets/Metro/Linea_1/tacubaya.png",
+		"transfers": [
+			"Metro - Línea 7",
+			"Metro - Línea 9",
+			"Metrobús - Línea 2",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Juanacatlán",
+		"imageUrl": "assets/Metro/Linea_1/juanacatlan.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Chapultepec",
+		"imageUrl": "assets/Metro/Linea_1/chapultepec.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Trolebús",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Sevilla",
+		"imageUrl": "assets/Metro/Linea_1/sevilla.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Insurgentes",
+		"imageUrl": "assets/Metro/Linea_1/insurgentes.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Cuauhtémoc",
+		"imageUrl": "assets/Metro/Linea_1/cuauhtemoc.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Balderas",
+		"imageUrl": "assets/Metro/Linea_1/balderas.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metrobús - Línea 3",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Salto Del Agua",
+		"imageUrl": "assets/Metro/Linea_1/saltodelagua.png",
+		"transfers": [
+			"Metro - Línea 8",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Isabel La Católica",
+		"imageUrl": "assets/Metro/Linea_1/isabellacatolica.png"
+	},
+	{
+		"name": "Pino Suárez",
+		"imageUrl": "assets/Metro/Linea_1/pinosuarez.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Metrobús - Línea 4",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Merced",
+		"imageUrl": "assets/Metro/Linea_1/merced.png",
+		"transfers": [
+			"Metrobús - Línea 4"
+		]
+	},
+	{
+		"name": "Candelaria",
+		"imageUrl": "assets/Metro/Linea_1/candelaria.png",
+		"transfers": [
+			"Metro - Línea 4",
+			"RTP"
+		]
+	},
+	{
+		"name": "San Lázaro",
+		"imageUrl": "assets/Metro/Linea_1/sanlazaro.png",
+		"transfers": [
+			"Metro - Línea B",
+			"Metrobús - Línea 4",
+			"Metrobús - Línea 5"
+		]
+	},
+	{
+		"name": "Moctezuma",
+		"imageUrl": "assets/Metro/Linea_1/moctezuma.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Metrobús - Línea 5"
+		]
+	},
+	{
+		"name": "Balbuena",
+		"imageUrl": "assets/Metro/Linea_1/balbuena.png"
+	},
+	{
+		"name": "Boulevard Puerto Aéreo",
+		"imageUrl": "assets/Metro/Linea_1/boulevard.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Gómez Farias",
+		"imageUrl": "assets/Metro/Linea_1/gomezfarias.png"
+	},
+	{
+		"name": "Zaragoza",
+		"imageUrl": "assets/Metro/Linea_1/zaragoza.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Pantitlán",
+		"imageUrl": "assets/Metro/Linea_1/pantitlan.png",
+		"transfers": [
+			"Metro - Línea 5",
+			"Metro - Línea 9",
+			"Metro - Línea A",
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"RTP"
+		]
+	}
+]

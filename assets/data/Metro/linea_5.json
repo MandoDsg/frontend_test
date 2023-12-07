@@ -1,0 +1,113 @@
+[
+	{
+		"name": "Pantitlán",
+		"imageUrl": "assets/Metro/Linea_5/pantitlan.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metro - Línea 9",
+			"Metro - Línea A",
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Hangares",
+		"imageUrl": "assets/Metro/Linea_5/hangares.png"
+	},
+	{
+		"name": "Terminal Aérea",
+		"imageUrl": "assets/Metro/Linea_5/terminalaerea.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Oceanía",
+		"imageUrl": "assets/Metro/Linea_5/oceania.png",
+		"transfers": [
+			"Metro - Línea B",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Aragón",
+		"imageUrl": "assets/Metro/Linea_5/aragon.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Eduardo Molina",
+		"imageUrl": "assets/Metro/Linea_5/eduardomolina.png",
+		"transfers": [
+			"Metrobús - Línea 5",
+			"RTP"
+		]
+	},
+	{
+		"name": "Consulado",
+		"imageUrl": "assets/Metro/Linea_5/consulado.png",
+		"transfers": [
+			"Metro - Línea 4",
+			"Metrobús - Línea 5",
+			"RTP"
+		]
+	},
+	{
+		"name": "Valle Gómez",
+		"imageUrl": "assets/Metro/Linea_5/vallegomez.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Misterios",
+		"imageUrl": "assets/Metro/Linea_5/misterios.png",
+		"transfers": [
+			"Metrobús - Línea 7",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "La Raza",
+		"imageUrl": "assets/Metro/Linea_5/laraza.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 3",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Autobuses Del Norte",
+		"imageUrl": "assets/Metro/Linea_5/autobusesnorte.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Instituto Del Petróleo",
+		"imageUrl": "assets/Metro/Linea_5/imp.png",
+		"transfers": [
+			"Metro - Línea 6",
+			"Metrobús - Línea 6",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Politécnico",
+		"imageUrl": "assets/Metro/Linea_5/ipn.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	}
+]

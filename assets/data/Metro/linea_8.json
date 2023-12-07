@@ -1,0 +1,153 @@
+[
+	{
+		"name": "Garibaldi",
+		"imageUrl": "assets/Metro/Linea_8/garibaldi.png",
+		"transfers": [
+			"Metro - Línea B",
+			"Metrobús - Línea 7",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Bellas Artes",
+		"imageUrl": "assets/Metro/Linea_8/bellasartes.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "San Juan De Letrán",
+		"imageUrl": "assets/Metro/Linea_8/sanjuandeletran.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Salto Del Agua",
+		"imageUrl": "assets/Metro/Linea_8/saltodelagua.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Doctores",
+		"imageUrl": "assets/Metro/Linea_8/doctores.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Obrera",
+		"imageUrl": "assets/Metro/Linea_8/obrera.png",
+		"transfers": [
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Chabacano",
+		"imageUrl": "assets/Metro/Linea_8/chabacano.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Metro - Línea 9",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "La Viga",
+		"imageUrl": "assets/Metro/Linea_8/laviga.png"
+	},
+	{
+		"name": "Santa Anita",
+		"imageUrl": "assets/Metro/Linea_8/santaanita.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Metrobús - Línea 2",
+			"RTP"
+		]
+	},
+	{
+		"name": "Coyuya",
+		"imageUrl": "assets/Metro/Linea_8/coyuya.png",
+		"transfers": [
+			"Metrobús - Línea 2",
+			"Metrobús - Línea 5"
+		]
+	},
+	{
+		"name": "Iztacalco",
+		"imageUrl": "assets/Metro/Linea_8/iztacalco.png",
+		"transfers": [
+			"Metrobús - Línea 5",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Apatlaco",
+		"imageUrl": "assets/Metro/Linea_8/apatlaco.png",
+		"transfers": [
+			"Metrobús - Línea 5",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Aculco",
+		"imageUrl": "assets/Metro/Linea_8/aculco.png",
+		"transfers": [
+			"Metrobús - Línea 5"
+		]
+	},
+	{
+		"name": "Escuadrón 201",
+		"imageUrl": "assets/Metro/Linea_8/escuadron201.png",
+		"transfers": [
+			"Metrobús - Línea 5"
+		]
+	},
+	{
+		"name": "Atlalilco",
+		"imageUrl": "assets/Metro/Linea_8/atlalilco.png",
+		"transfers": [
+			"Metro - Línea 12",
+			"RTP"
+		]
+	},
+	{
+		"name": "Iztapalapa",
+		"imageUrl": "assets/Metro/Linea_8/iztapalapa.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Cerro De La Estrella",
+		"imageUrl": "assets/Metro/Linea_8/cerrodelaestrella.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "UAM-I",
+		"imageUrl": "assets/Metro/Linea_8/uami.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Constitución De 1917",
+		"imageUrl": "assets/Metro/Linea_8/constitucionde1917.png",
+		"transfers": [
+			"Cablebús - Línea 2",
+			"Trolebús",
+			"RTP"
+		]
+	}
+]

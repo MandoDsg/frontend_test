@@ -22,6 +22,7 @@ String traducirNombre(String nombre) {
     '_CBL1': '\nCableBús - Línea 1',
     '_CBL2': '\nCableBús - Línea 2',
     '_TL': '\nTren Ligero',
+    '_EI': '\nEl Insurgente',
   };
 
   final keysToReplace =
@@ -62,6 +63,7 @@ String traducirNombreTransborde(String nombre) {
     'CBL1': ' Línea 1 del CableBús',
     'CBL2': ' Línea 2 del CableBús',
     'TL': ' Tren Ligero',
+    'EI': ' El Insurgente',
   };
 
   final keysToReplace = sustituciones.keys.where((clave) {

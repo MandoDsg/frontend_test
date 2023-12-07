@@ -1,0 +1,82 @@
+[
+	{
+		"name": "Martín Carrera",
+		"imageUrl": "assets/Metro/Linea_4/martincarrera.png",
+		"transfers": [
+			"Metro - Línea 6",
+			"Metrobús - Línea 6",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Talismán",
+		"imageUrl": "assets/Metro/Linea_4/talisman.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Bondojito",
+		"imageUrl": "assets/Metro/Linea_4/bondojito.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Consulado",
+		"imageUrl": "assets/Metro/Linea_4/consulado.png",
+		"transfers": [
+			"Metro - Línea 5",
+			"RTP"
+		]
+	},
+	{
+		"name": "Canal Del Norte",
+		"imageUrl": "assets/Metro/Linea_4/canaldelnorte.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Morelos",
+		"imageUrl": "assets/Metro/Linea_4/morelos.png",
+		"transfers": [
+			"Metro - Línea B",
+			"RTP"
+		]
+	},
+	{
+		"name": "Candelaria",
+		"imageUrl": "assets/Metro/Linea_4/candelaria.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"RTP"
+		]
+	},
+	{
+		"name": "Fray Servando",
+		"imageUrl": "assets/Metro/Linea_4/frayservando.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Jamaica",
+		"imageUrl": "assets/Metro/Linea_4/jamaica.png",
+		"transfers": [
+			"Metro - Línea 9",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Santa Anita",
+		"imageUrl": "assets/Metro/Linea_4/santaanita.png",
+		"transfers": [
+			"Metro - Línea 8",
+			"RTP"
+		]
+	}
+]

@@ -44,6 +44,7 @@ dependencies:
   provider:
   shared_preferences: ^2.2.2
   url_launcher: ^6.2.1
+  photo_view: ^0.14.0
 
 dev_dependencies:
   flutter_test:
@@ -94,7 +95,14 @@ flutter:
     - assets/Cablebus/Linea_1/
     - assets/Cablebus/Linea_2/
     - assets/Tren_Ligero/
+    - assets/El_Insurgente/
     - assets/dashboard/
+    - assets/Maps/
+    - assets/data/Metro/
+    - assets/data/Metrobus/
+    - assets/data/Tren_Ligero/
+    - assets/data/Cablebus/
+    - assets/data/El_Insurgente/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

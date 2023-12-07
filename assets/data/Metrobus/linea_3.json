@@ -1,0 +1,252 @@
+[
+	{
+		"name": "Tenayuca",
+		"imageUrl": "assets/Metrobus/Linea_3/tenayuca.png"
+	},
+	{
+		"name": "San José De La Escalera",
+		"imageUrl": "assets/Metrobus/Linea_3/sanjosedelaescalera.png"
+	},
+	{
+		"name": "Progreso Nacional",
+		"imageUrl": "assets/Metrobus/Linea_3/progresonacional.png"
+	},
+	{
+		"name": "Tres Anegas",
+		"imageUrl": "assets/Metrobus/Linea_3/tresanegas.png"
+	},
+	{
+		"name": "Júpiter",
+		"imageUrl": "assets/Metrobus/Linea_3/jupiter.png"
+	},
+	{
+		"name": "La Patera",
+		"imageUrl": "assets/Metrobus/Linea_3/lapatera.png"
+	},
+	{
+		"name": "Poniente 146",
+		"imageUrl": "assets/Metrobus/Linea_3/poniente146.png"
+	},
+	{
+		"name": "Montevideo",
+		"imageUrl": "assets/Metrobus/Linea_3/montevideo.png",
+		"transfers": [
+			"Metrobús - Línea 6"
+		]
+	},
+	{
+		"name": "Poniente 134",
+		"imageUrl": "assets/Metrobus/Linea_3/poniente134.png",
+		"transfers": [
+			"Metro - Línea 6"
+		]
+	},
+	{
+		"name": "Poniente 128",
+		"imageUrl": "assets/Metrobus/Linea_3/poniente128.png",
+		"transfers": [
+			"Metro - Línea 6"
+		]
+	},
+	{
+		"name": "Magdalena De Las Salinas",
+		"imageUrl": "assets/Metrobus/Linea_3/magdalenadelassalinas.png"
+	},
+	{
+		"name": "Coltongo",
+		"imageUrl": "assets/Metrobus/Linea_3/coltongo.png"
+	},
+	{
+		"name": "Cuitláhuac",
+		"imageUrl": "assets/Metrobus/Linea_3/cuitlahuac.png"
+	},
+	{
+		"name": "Héroe De Nacozari",
+		"imageUrl": "assets/Metrobus/Linea_3/heroedenacozari.png"
+	},
+	{
+		"name": "Hospital La Raza",
+		"imageUrl": "assets/Metrobus/Linea_3/hospitallaraza.png"
+	},
+	{
+		"name": "La Raza",
+		"imageUrl": "assets/Metrobus/Linea_3/laraza.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Metro - Línea 3",
+			"Metro - Línea 5",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Circuito",
+		"imageUrl": "assets/Metrobus/Linea_3/circuito.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Tolnáhuac",
+		"imageUrl": "assets/Metrobus/Linea_3/tolnahuac.png"
+	},
+	{
+		"name": "Tlatelolco",
+		"imageUrl": "assets/Metrobus/Linea_3/tlatelolco.png",
+		"transfers": [
+			"Metro - Línea 3"
+		]
+	},
+	{
+		"name": "Ricardo Flores Magón",
+		"imageUrl": "assets/Metrobus/Linea_3/ricardofloresmagon.png"
+	},
+	{
+		"name": "Guerrero",
+		"imageUrl": "assets/Metrobus/Linea_3/guerrero.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metro - Línea B"
+		]
+	},
+	{
+		"name": "Buenavista",
+		"imageUrl": "assets/Metrobus/Linea_3/buenavista.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 4",
+			"Metro - Línea B",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Mina",
+		"imageUrl": "assets/Metrobus/Linea_3/mina.png"
+	},
+	{
+		"name": "Hidalgo",
+		"imageUrl": "assets/Metrobus/Linea_3/hidalgo.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Metrobús - Línea 7",
+			"Metro - Línea 2",
+			"Metro - Línea 3",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Juárez",
+		"imageUrl": "assets/Metrobus/Linea_3/juarez.png",
+		"transfers": [
+			"Metrobús - Línea 4",
+			"Metro - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Balderas",
+		"imageUrl": "assets/Metrobus/Linea_3/balderas.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metro - Línea 3",
+			"RTP"
+		]
+	},
+	{
+		"name": "Cuauhtémoc",
+		"imageUrl": "assets/Metrobus/Linea_3/cuauhtemoc.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Jardín Pushkin",
+		"imageUrl": "assets/Metrobus/Linea_3/jardinpushkin.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Hospital General",
+		"imageUrl": "assets/Metrobus/Linea_3/hospitalgeneral.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Trolebús",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Doctor Márquez",
+		"imageUrl": "assets/Metrobus/Linea_3/doctormarquez.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Centro Médico",
+		"imageUrl": "assets/Metrobus/Linea_3/centromedico.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metro - Línea 9",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Obrero Mundial",
+		"imageUrl": "assets/Metrobus/Linea_3/obreromundial.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Etiopía",
+		"imageUrl": "assets/Metrobus/Linea_3/etiopia.png",
+		"transfers": [
+			"Metrobús - Línea 2",
+			"Metro - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Luz Saviñón",
+		"imageUrl": "assets/Metrobus/Linea_3/luzsavinon.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Eugenia",
+		"imageUrl": "assets/Metrobus/Linea_3/eugenia.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "División Del Norte",
+		"imageUrl": "assets/Metrobus/Linea_3/divisiondelnorte.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Miguel Laurent",
+		"imageUrl": "assets/Metrobus/Linea_3/miguellaurent.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Pueblo Santa Cruz Atoyac",
+		"imageUrl": "assets/Metrobus/Linea_3/pueblo.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metro - Línea 12",
+			"Trolebús",
+			"Ecobici"
+		]
+	}
+]

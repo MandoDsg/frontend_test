@@ -1,0 +1,183 @@
+[
+	{
+		"name": "Indios Verdes",
+		"imageUrl": "assets/Metro/Linea_3/indiosverdes.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 7",
+			"Cablebús - Línea 1",
+			"RTP"
+		]
+	},
+	{
+		"name": "Deportivo 18 De Marzo",
+		"imageUrl": "assets/Metro/Linea_3/deportivo18marzo.png",
+		"transfers": [
+			"Metro - Línea 6",
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 6"
+		]
+	},
+	{
+		"name": "Potrero",
+		"imageUrl": "assets/Metro/Linea_3/potrero.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"RTP"
+		]
+	},
+	{
+		"name": "La Raza",
+		"imageUrl": "assets/Metro/Linea_3/laraza.png",
+		"transfers": [
+			"Metro - Línea 5",
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 3",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Tlatelolco",
+		"imageUrl": "assets/Metro/Linea_3/tlatelolco.png",
+		"transfers": [
+			"Metrobús - Línea 3"
+		]
+	},
+	{
+		"name": "Guerrero",
+		"imageUrl": "assets/Metro/Linea_3/guerrero.png",
+		"transfers": [
+			"Metro - Línea B",
+			"Metrobús - Línea 3"
+		]
+	},
+	{
+		"name": "Hidalgo",
+		"imageUrl": "assets/Metro/Linea_3/hidalgo.png",
+		"transfers": [
+			"Metro - Línea 2",
+			"Metrobús - Línea 3",
+			"Metrobús - Línea 4",
+			"Metrobús - Línea 7",
+			"Trolebús",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Juárez",
+		"imageUrl": "assets/Metro/Linea_3/juarez.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Metrobús - Línea 4",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Balderas",
+		"imageUrl": "assets/Metro/Linea_3/balderas.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metrobús - Línea 3",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Niños Héroes",
+		"imageUrl": "assets/Metro/Linea_3/niñosheroes.png",
+		"transfers": [
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Hospital General",
+		"imageUrl": "assets/Metro/Linea_3/hospitalgeneral.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Trolebús"
+		]
+	},
+	{
+		"name": "Centro Médico",
+		"imageUrl": "assets/Metro/Linea_3/centromedico.png",
+		"transfers": [
+			"Metro - Línea 9",
+			"Metrobús - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Etiopía",
+		"imageUrl": "assets/Metro/Linea_3/etiopia.png",
+		"transfers": [
+			"Metrobús - Línea 2",
+			"Metrobús - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Eugenia",
+		"imageUrl": "assets/Metro/Linea_3/eugenia.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "División Del Norte",
+		"imageUrl": "assets/Metro/Linea_3/divdelnorte.png",
+		"transfers": [
+			"Metrobús - Línea 3",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Zapata",
+		"imageUrl": "assets/Metro/Linea_3/zapata.png",
+		"transfers": [
+			"Metro - Línea 12",
+			"Metrobús - Línea 3",
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Coyoacán",
+		"imageUrl": "assets/Metro/Linea_3/coyoacan.png",
+		"transfers": [
+			"RTP",
+			"Ecobici"
+		]
+	},
+	{
+		"name": "Viveros",
+		"imageUrl": "assets/Metro/Linea_3/viveros.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Miguel Ángel De Quevedo",
+		"imageUrl": "assets/Metro/Linea_3/maq.png",
+		"transfers": [
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Copilco",
+		"imageUrl": "assets/Metro/Linea_3/copilco.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Universidad",
+		"imageUrl": "assets/Metro/Linea_3/universidad.png",
+		"transfers": [
+			"RTP"
+		]
+	}
+]

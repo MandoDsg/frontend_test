@@ -1,0 +1,132 @@
+[
+	{
+		"name": "Ciudad Azteca",
+		"imageUrl": "assets/Metro/Linea_B/ciudadazteca.png"
+	},
+	{
+		"name": "Plaza Aragón",
+		"imageUrl": "assets/Metro/Linea_B/plazaaragon.png"
+	},
+	{
+		"name": "Olímpica",
+		"imageUrl": "assets/Metro/Linea_B/olimpica.png"
+	},
+	{
+		"name": "Ecatepec",
+		"imageUrl": "assets/Metro/Linea_B/ecatepec.png"
+	},
+	{
+		"name": "Múzquiz",
+		"imageUrl": "assets/Metro/Linea_B/muzquiz.png"
+	},
+	{
+		"name": "Río De Los Remedios",
+		"imageUrl": "assets/Metro/Linea_B/riodelosremedios.png"
+	},
+	{
+		"name": "Impulsora",
+		"imageUrl": "assets/Metro/Linea_B/impulsora.png"
+	},
+	{
+		"name": "Nezahualcóyotl",
+		"imageUrl": "assets/Metro/Linea_B/nezahualcoyotl.png"
+	},
+	{
+		"name": "Villa De Aragón",
+		"imageUrl": "assets/Metro/Linea_B/villadearagon.png",
+		"transfers": [
+			"Metrobús - Línea 6"
+		]
+	},
+	{
+		"name": "Bosque De Aragón",
+		"imageUrl": "assets/Metro/Linea_B/bosquedearagon.png"
+	},
+	{
+		"name": "Deportivo Oceanía",
+		"imageUrl": "assets/Metro/Linea_B/deportivooceania.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Oceanía",
+		"imageUrl": "assets/Metro/Linea_B/oceania.png",
+		"transfers": [
+			"Metro - Línea 5",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Romero Rubio",
+		"imageUrl": "assets/Metro/Linea_B/romerorubio.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Ricardo Flores Magón",
+		"imageUrl": "assets/Metro/Linea_B/ricardofloresmagon.png"
+	},
+	{
+		"name": "San Lázaro",
+		"imageUrl": "assets/Metro/Linea_B/sanlazaro.png",
+		"transfers": [
+			"Metro - Línea 1",
+			"Metrobús - Línea 4",
+			"Metrobús - Línea 5"
+		]
+	},
+	{
+		"name": "Morelos",
+		"imageUrl": "assets/Metro/Linea_B/morelos.png",
+		"transfers": [
+			"Metro - Línea 4",
+			"Metrobús - Línea 4",
+			"RTP"
+		]
+	},
+	{
+		"name": "Tepito",
+		"imageUrl": "assets/Metro/Linea_B/tepito.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Lagunilla",
+		"imageUrl": "assets/Metro/Linea_B/lagunilla.png",
+		"transfers": [
+			"RTP"
+		]
+	},
+	{
+		"name": "Garibaldi",
+		"imageUrl": "assets/Metro/Linea_B/garibaldi.png",
+		"transfers": [
+			"Metro - Línea 8",
+			"Metrobús - Línea 7",
+			"Trolebús",
+			"RTP"
+		]
+	},
+	{
+		"name": "Guerrero",
+		"imageUrl": "assets/Metro/Linea_B/guerrero.png",
+		"transfers": [
+			"Metro - Línea 3",
+			"Metrobús - Línea 3"
+		]
+	},
+	{
+		"name": "Buenavista",
+		"imageUrl": "assets/Metro/Linea_B/buenavista.png",
+		"transfers": [
+			"Metrobús - Línea 1",
+			"Metrobús - Línea 3",
+			"Metrobús - Línea 4",
+			"Ecobici"
+		]
+	}
+]
